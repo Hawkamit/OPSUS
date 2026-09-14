@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #0A1B33;
+  --color-navy-900: #0F2545;
+  --color-navy-800: #16345F;
+  --color-navy-700: #1E4373;
+  --color-cream-50: #FAF8F3;
+  --color-cream-100: #F4EFE6;
+  --color-cream-200: #EAE3D5;
+  --color-white: #FFFFFF;
+  --color-gold-500: #C9A15E;
+  --color-gold-400: #D8B475;
+  --color-gold-300: #E7CFA1;
+  --color-gold-100: #F8F1E3;
+  --color-blue-accent: #2F6FA8;
+  --color-blue-light: #EBF3FA;
+  --color-magenta-accent: #A6317D;
+  --color-slate-600: #5B6B7D;
+  --color-slate-500: #718096;
+  --color-slate-400: #94A3B8;
+  --color-border-subtle: #E4E0D8;
+  --color-border-dark: #1F385C;
+
+  --font-serif: var(--font-serif), Georgia, serif;
+  --font-sans: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+:root {
+  --color-navy-950: #0A1B33;
+  --color-navy-900: #0F2545;
+  --color-navy-800: #16345F;
+  --color-navy-700: #1E4373;
+  --color-cream-50: #FAF8F3;
+  --color-white: #FFFFFF;
+  --color-gold-500: #C9A15E;
+  --color-gold-300: #E7CFA1;
+  --color-blue-accent: #2F6FA8;
+  --color-magenta-accent: #A6317D;
+  --color-slate-600: #5B6B7D;
+  --color-border-subtle: #E4E0D8;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #FAF8F3;
+  color: #0A1B33;
+}
+
+body {
+  font-family: var(--font-sans), sans-serif;
+  background-color: #FAF8F3;
+  color: #5B6B7D;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography styles */
+.font-serif-display {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+/* Gold italic serif emphasis signature pattern */
+.gold-italic {
+  font-family: var(--font-serif), Georgia, serif;
+  font-style: italic;
+  color: #C9A15E;
+}
+
+/* Eyebrow badge / label */
+.eyebrow-text {
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Custom hairline borders */
+.border-subtle {
+  border-color: #E4E0D8;
+}
+
+.border-navy-divider {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F3;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A15E;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A6317D;
+}
+
+/* Focus outline */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #C9A15E;
+  outline-offset: 2px;
+}
+
+/* Hide scrollbar for carousel container */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
