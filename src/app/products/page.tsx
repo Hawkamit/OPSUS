@@ -12,7 +12,7 @@ import { products } from '@/data/products';
 export const metadata = {
   title: 'Pharmaceutical Formulations & Products',
   description:
-    'Explore Opsus Pharmaceuticals portfolio of 33+ high-demand formulations across Orthopaedics, Anti-Infectives, Cardiology, Gastroenterology, and Gynaecology. WHO-GMP partner sourced.',
+    'Explore Opsus Pharmaceuticals verified catalogue of high-demand formulations across Orthopaedics, Anti-Infectives, Gastroenterology, Respiratory, and Gynaecology. WHO-GMP partner sourced.',
 };
 
 export default function ProductsPage() {
@@ -85,10 +85,10 @@ export default function ProductsPage() {
       {/* 2. STAT BAR */}
       <StatBar
         stats={[
-          { value: '33+', label: 'Formulations', sublabel: 'Solid & Liquid Dosages', icon: 'Package' },
-          { value: '10+', label: 'Therapeutic Areas', sublabel: 'Specialist Medical Fields', icon: 'Award' },
-          { value: '500+', label: 'Healthcare Partners', sublabel: 'Doctors & Distributors', icon: 'Users' },
-          { value: 'Pan-India', label: 'Presence', sublabel: 'Covering 28+ States', icon: 'MapPin' },
+          { value: '27+', label: 'Formulations', sublabel: 'Solid & Liquid Dosages', icon: 'Package' },
+          { value: '9', label: 'Therapeutic Areas', sublabel: 'Specialist Medical Fields', icon: 'Award' },
+          { value: '150+', label: 'Healthcare Partners', sublabel: 'Doctors & Distributors', icon: 'Users' },
+          { value: '15+', label: 'States Presence', sublabel: 'Regional Distribution', icon: 'MapPin' },
         ]}
         theme="light"
       />
@@ -184,14 +184,14 @@ export default function ProductsPage() {
 
       {/* 5. PARTNERSHIP CTA BAND WITH SEEDLING IMAGE (§6.3 item 6) */}
       <CtaBand
-        eyebrow="FRANCHISE OPPORTUNITY"
+        eyebrow="DISTRIBUTION PARTNERSHIP"
         title="Let's Build a Healthier Tomorrow."
         italicAccent="Together."
-        description="Partner with Opsus to secure exclusive monopoly marketing rights in your territory. Access our full catalogue of 33+ high-demand formulations with premium promotional visual aids and strong margins."
-        primaryCtaText="Start Your PCD Franchise"
-        primaryCtaHref="/pcd-franchise"
-        secondaryCtaText="Product Enquiry"
-        secondaryCtaHref="/contact"
+        description="Partner with Opsus to distribute our catalogue of 33+ high-demand formulations in your territory, supported by marketing visual aids and ethical trade margins."
+        primaryCtaText="Product & Franchise Inquiry"
+        primaryCtaHref="/contact"
+        secondaryCtaText="Franchise Details"
+        secondaryCtaHref="/pcd-franchise"
         theme="dark"
         sideImage="/images/products/products-seedling-hands.jpg"
       />

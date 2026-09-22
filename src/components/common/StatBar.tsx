@@ -19,8 +19,8 @@ export const StatBar: React.FC<StatBarProps> = ({
   stats = [
     { value: '2010', label: 'Established', sublabel: 'Ethical Healthcare Marketing', icon: 'Calendar' },
     { value: '33+', label: 'Products', sublabel: 'Quality Formulations', icon: 'Package' },
-    { value: '28+', label: 'Pan-India Presence', sublabel: 'States Covered', icon: 'MapPin' },
-    { value: '500+', label: 'Healthcare Partners', sublabel: 'Doctors & Distributors', icon: 'Users' },
+    { value: '15+', label: 'States Presence', sublabel: 'Regional Distribution', icon: 'MapPin' },
+    { value: '150+', label: 'Healthcare Partners', sublabel: 'Doctors & Distributors', icon: 'Users' },
   ],
   theme = 'light',
   sideNote = 'TRUSTED BY HEALTHCARE PARTNERS ACROSS INDIA',
@@ -66,7 +66,7 @@ export const StatBar: React.FC<StatBarProps> = ({
                 className={`w-12 h-12 rounded-full flex items-center justify-center shrink-0 ${
                   isDark
                     ? 'bg-[#C9A15E]/15 text-[#C9A15E]'
-                    : 'bg-[#2F6FA8]/10 text-[#2F6FA8]'
+                    : 'bg-[#C9A15E]/15 text-[#9A7332]'
                 }`}
               >
                 {getIcon(stat.icon)}

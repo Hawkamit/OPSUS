@@ -14,7 +14,7 @@ import { CtaBand } from '@/components/common/CtaBand';
 export const metadata = {
   title: 'PCD Pharma Franchise | Monopoly Rights & Partnership Opportunities',
   description:
-    'Partner with Opsus Pharmaceuticals for profitable PCD pharma franchise opportunities with exclusive monopoly marketing rights across 28+ Indian states. Full promotional visual aid support and WHO-GMP partner sourced medicines.',
+    'Partner with Opsus Pharmaceuticals for profitable PCD pharma franchise opportunities with exclusive monopoly marketing rights across 15+ Indian states. Full promotional visual aid support and WHO-GMP partner sourced medicines.',
 };
 
 export default function PcdFranchisePage() {
@@ -111,7 +111,7 @@ export default function PcdFranchisePage() {
                     &ldquo;Stronger Partnerships. Healthier Tomorrow.&rdquo;
                   </p>
                   <p className="text-xs text-[#5B6B7D]">
-                    Over 500+ successful franchise associations built over a decade of trust.
+                    Over 150+ successful franchise associations built over a decade of trust.
                   </p>
                 </div>
               </div>
@@ -172,11 +172,11 @@ export default function PcdFranchisePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-5 gap-6 text-center divide-y sm:divide-y-0 sm:divide-x divide-slate-300/60">
             <div className="pt-3 sm:pt-0 sm:px-4">
-              <div className="font-serif text-3xl sm:text-4xl font-bold text-[#0A1B33]">500+</div>
+              <div className="font-serif text-3xl sm:text-4xl font-bold text-[#0A1B33]">150+</div>
               <div className="text-xs font-semibold text-[#16345F] mt-1">Franchise Partners</div>
             </div>
             <div className="pt-3 sm:pt-0 sm:px-4">
-              <div className="font-serif text-3xl sm:text-4xl font-bold text-[#0A1B33]">28+</div>
+              <div className="font-serif text-3xl sm:text-4xl font-bold text-[#0A1B33]">15+</div>
               <div className="text-xs font-semibold text-[#16345F] mt-1">States Presence</div>
             </div>
             <div className="pt-3 sm:pt-0 sm:px-4">

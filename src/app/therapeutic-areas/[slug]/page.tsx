@@ -214,14 +214,14 @@ export default async function TherapeuticAreaDetailPage({ params }: AreaDetailPa
 
       {/* Territory Rights CTA */}
       <CtaBand
-        eyebrow="TERRITORY MONOPOLY"
+        eyebrow="TERRITORY DISTRIBUTION"
         title="Distribute This Segment in Your"
         italicAccent="District."
-        description="Launch an exclusive PCD franchise for our orthopaedic, antibiotic, or cardio-metabolic range with comprehensive promotional visual aids and marketing materials."
-        primaryCtaText="Apply for PCD Franchise"
-        primaryCtaHref="/pcd-franchise"
-        secondaryCtaText="Contact Sales Team"
-        secondaryCtaHref="/contact"
+        description="Launch a distribution partnership for our specialized range with promotional visual aids, marketing materials, and dependable logistics."
+        primaryCtaText="Distribution Enquiry"
+        primaryCtaHref="/contact"
+        secondaryCtaText="Franchise Information"
+        secondaryCtaHref="/pcd-franchise"
         theme="dark"
       />
     </div>

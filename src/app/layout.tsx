@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Opsus Pharmaceuticals | Better Healthcare Through Stronger Partnerships',
     description:
-      'Quality-focused pharmaceutical marketing and distribution across 28+ Indian states.',
+      'Quality-focused pharmaceutical marketing and distribution across 15+ Indian states.',
     images: ['/images/hero/hero-scientist-microscope-01.jpg'],
   },
   robots: {

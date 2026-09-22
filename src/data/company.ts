@@ -3,8 +3,8 @@ import { LicenceRecord } from '@/types';
 export const companyStats = [
   { value: '2010', label: 'Established', sublabel: 'Over a decade of ethical healthcare service' },
   { value: '33+', label: 'Quality Products', sublabel: 'Across vital therapeutic segments' },
-  { value: '28+', label: 'States Presence', sublabel: 'Comprehensive pan-India distribution network' },
-  { value: '500+', label: 'Healthcare Partners', sublabel: 'Trusted doctors, chemists, and distributors' },
+  { value: '15+', label: 'States Presence', sublabel: 'Growing regional distribution network' },
+  { value: '150+', label: 'Healthcare Partners', sublabel: 'Trusted doctors, chemists, and distributors' },
 ];
 
 export const drugLicences: LicenceRecord[] = [

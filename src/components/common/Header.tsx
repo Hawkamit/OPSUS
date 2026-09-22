@@ -43,7 +43,6 @@ export const Header: React.FC = () => {
     { label: 'Products', href: '/products' },
     { label: 'Therapeutic Areas', href: '/therapeutic-areas' },
     { label: 'Quality', href: '/quality' },
-    { label: 'PCD Franchise', href: '/pcd-franchise' },
     { label: 'Blog', href: '/blog' },
     { label: 'Contact', href: '/contact' },
   ];
@@ -58,8 +57,8 @@ export const Header: React.FC = () => {
       <header
         className={`sticky top-0 z-50 w-full transition-all duration-300 ${
           isScrolled
-            ? 'bg-white/95 backdrop-blur-md shadow-sm border-b border-[#E4E0D8]/80 py-3.5'
-            : 'bg-white border-b border-[#E4E0D8]/60 py-4.5'
+            ? 'bg-white/95 backdrop-blur-md shadow-sm border-b border-[#E4E0D8]/80 py-3'
+            : 'bg-white border-b border-[#E4E0D8]/60 py-4'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -71,7 +70,7 @@ export const Header: React.FC = () => {
 
             {/* Desktop Centered Nav */}
             <nav
-              className="hidden xl:flex items-center gap-7 2xl:gap-8"
+              className="hidden lg:flex items-center gap-6 xl:gap-8"
               aria-label="Main Navigation"
             >
               {navLinks.map((link) => {
@@ -99,20 +98,20 @@ export const Header: React.FC = () => {
             {/* Right Action CTA Pill */}
             <div className="hidden sm:flex items-center gap-3 shrink-0">
               <Button
-                href="/pcd-franchise"
+                href="/contact"
                 variant="primary"
                 size="sm"
                 showArrow
                 className="hidden md:inline-flex"
               >
-                Partner With Us
+                Contact Us
               </Button>
 
               {/* Hamburger Button (Mobile / Tablet) */}
               <button
                 type="button"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="xl:hidden p-2 rounded-lg text-[#0A1B33] hover:bg-slate-100 transition-colors"
+                className="lg:hidden p-2 rounded-lg text-[#0A1B33] hover:bg-slate-100 transition-colors"
                 aria-label={isMobileMenuOpen ? 'Close Navigation Menu' : 'Open Navigation Menu'}
                 aria-expanded={isMobileMenuOpen}
               >
@@ -146,7 +145,7 @@ export const Header: React.FC = () => {
 
       {/* Mobile Slide-in Panel Overlay */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-50 xl:hidden">
+        <div className="fixed inset-0 z-50 lg:hidden">
           {/* Backdrop */}
           <div
             className="fixed inset-0 bg-[#0A1B33]/60 backdrop-blur-sm transition-opacity"
@@ -198,21 +197,21 @@ export const Header: React.FC = () => {
             {/* Bottom Actions */}
             <div className="pt-6 border-t border-[#E4E0D8] flex flex-col gap-3">
               <Button
-                href="/pcd-franchise"
-                variant="gold"
+                href="/contact"
+                variant="primary"
                 size="md"
                 showArrow
                 className="w-full justify-center shadow-md"
               >
-                Become a PCD Partner
+                Contact Our Team
               </Button>
               <Button
-                href="/contact"
+                href="/pcd-franchise"
                 variant="secondary"
                 size="md"
-                className="w-full justify-center"
+                className="w-full justify-center text-xs"
               >
-                Contact Our Team
+                Franchise Information
               </Button>
               <div className="flex items-center justify-center gap-2 text-xs text-[#5B6B7D] pt-2">
                 <PhoneCall className="w-3.5 h-3.5 text-[#2F6FA8]" />

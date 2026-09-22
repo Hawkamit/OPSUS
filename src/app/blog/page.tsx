@@ -106,7 +106,7 @@ export default function BlogPage() {
             </h2>
 
             <p className="text-sm text-slate-300 mb-8 leading-relaxed">
-              Join over 5,000+ doctors, pharmacists, and PCD franchise associates receiving our monthly dispatch on new formulations, DCGI updates, and distribution strategies.
+              Join over 500+ doctors, healthcare practitioners, and distribution associates receiving our monthly dispatch on new formulations, DCGI updates, and distribution insights.
             </p>
 
             <div className="flex justify-center">

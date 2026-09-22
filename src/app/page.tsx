@@ -28,9 +28,9 @@ export default function HomePage() {
       <StatBar
         stats={[
           { value: '2010', label: 'Established', sublabel: 'Over 14+ Years of Trust', icon: 'Calendar' },
-          { value: '33+', label: 'Products', sublabel: 'Quality Formulations', icon: 'Package' },
-          { value: '28+', label: 'States Presence', sublabel: 'Pan-India Distribution', icon: 'MapPin' },
-          { value: '500+', label: 'Healthcare Partners', sublabel: 'Doctors & Distributors', icon: 'Users' },
+          { value: '27+', label: 'Products', sublabel: 'Quality Formulations', icon: 'Package' },
+          { value: '15+', label: 'States Presence', sublabel: 'Regional Distribution', icon: 'MapPin' },
+          { value: '150+', label: 'Healthcare Partners', sublabel: 'Doctors & Distributors', icon: 'Users' },
         ]}
         sideNote="TRUSTED BY HEALTHCARE PARTNERS ACROSS INDIA"
       />
@@ -70,7 +70,7 @@ export default function HomePage() {
               description="High-demand pharmaceutical formulations formulated under stringent pharmacopoeial parameters by WHO-GMP certified manufacturing partners."
             />
             <Button href="/products" variant="secondary" size="md" showArrow>
-              Explore All 33+ Products
+              Explore All 27+ Products
             </Button>
           </div>
 
@@ -109,50 +109,50 @@ export default function HomePage() {
                 description="Founded in 2010, Opsus Pharmaceuticals is an ethical pharmaceutical marketing and distribution enterprise dedicated to improving healthcare delivery across India. Rather than operating factories, we focus on rigorous supplier selection, pharmaceutical marketing excellence, and robust temperature-controlled distribution."
               />
 
-              {/* Trust Bar in a Single Line Strip */}
-              <div className="mt-8 w-full overflow-x-auto no-scrollbar py-4 border-y border-[#E4E0D8]">
-                <div className="flex items-center gap-4 sm:gap-6 min-w-max lg:min-w-0 lg:grid lg:grid-cols-4 divide-x divide-[#E4E0D8]">
+              {/* Trust Features Grid */}
+              <div className="mt-8 py-5 border-y border-[#E4E0D8]">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                   {/* Item 1 */}
-                  <div className="flex items-center gap-3 pr-4 sm:pr-6">
-                    <div className="w-10 h-10 rounded-full bg-[#2F6FA8]/10 text-[#2F6FA8] flex items-center justify-center shrink-0">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-[#C9A15E]/15 text-[#9A7332] flex items-center justify-center shrink-0">
                       <ShieldCheck className="w-5 h-5" />
                     </div>
-                    <div className="whitespace-nowrap">
+                    <div>
                       <span className="text-xs sm:text-sm font-bold text-[#0A1B33] block">Quality-Focused</span>
                       <span className="text-[11px] text-[#5B6B7D] block">WHO-GMP Sourced</span>
                     </div>
                   </div>
 
                   {/* Item 2 */}
-                  <div className="flex items-center gap-3 px-4 sm:px-6">
-                    <div className="w-10 h-10 rounded-full bg-[#C9A15E]/15 text-[#C9A15E] flex items-center justify-center shrink-0">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-[#C9A15E]/15 text-[#9A7332] flex items-center justify-center shrink-0">
                       <Layers className="w-5 h-5" />
                     </div>
-                    <div className="whitespace-nowrap">
+                    <div>
                       <span className="text-xs sm:text-sm font-bold text-[#0A1B33] block">Wide Product Range</span>
-                      <span className="text-[11px] text-[#5B6B7D] block">33+ Formulations</span>
+                      <span className="text-[11px] text-[#5B6B7D] block">27+ Formulations</span>
                     </div>
                   </div>
 
                   {/* Item 3 */}
-                  <div className="flex items-center gap-3 px-4 sm:px-6">
-                    <div className="w-10 h-10 rounded-full bg-[#2F6FA8]/10 text-[#2F6FA8] flex items-center justify-center shrink-0">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-[#C9A15E]/15 text-[#9A7332] flex items-center justify-center shrink-0">
                       <Truck className="w-5 h-5" />
                     </div>
-                    <div className="whitespace-nowrap">
+                    <div>
                       <span className="text-xs sm:text-sm font-bold text-[#0A1B33] block">Reliable Supply</span>
                       <span className="text-[11px] text-[#5B6B7D] block">Pan-India Logistics</span>
                     </div>
                   </div>
 
                   {/* Item 4 */}
-                  <div className="flex items-center gap-3 pl-4 sm:pl-6">
-                    <div className="w-10 h-10 rounded-full bg-[#A6317D]/10 text-[#A6317D] flex items-center justify-center shrink-0">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-[#C9A15E]/15 text-[#9A7332] flex items-center justify-center shrink-0">
                       <Users2 className="w-5 h-5" />
                     </div>
-                    <div className="whitespace-nowrap">
+                    <div>
                       <span className="text-xs sm:text-sm font-bold text-[#0A1B33] block">Long-Term Partners</span>
-                      <span className="text-[11px] text-[#5B6B7D] block">500+ Healthcare Ties</span>
+                      <span className="text-[11px] text-[#5B6B7D] block">150+ Healthcare Ties</span>
                     </div>
                   </div>
                 </div>
@@ -162,8 +162,8 @@ export default function HomePage() {
                 <Button href="/about" variant="primary" size="md" showArrow>
                   Our Story
                 </Button>
-                <Button href="/pcd-franchise" variant="secondary" size="md">
-                  PCD Franchise Model
+                <Button href="/quality" variant="secondary" size="md">
+                  Quality Standards
                 </Button>
               </div>
             </div>
@@ -203,11 +203,11 @@ export default function HomePage() {
         eyebrow="GROW WITH OPSUS"
         title="Let's Build a Healthier Tomorrow."
         italicAccent="Together."
-        description="Join our expanding network of 500+ trusted distributors and PCD franchise partners across India. Gain exclusive monopoly marketing rights, marketing materials, and high-margin quality medicines."
-        primaryCtaText="Start Your PCD Franchise"
-        primaryCtaHref="/pcd-franchise"
-        secondaryCtaText="Contact Sales Team"
-        secondaryCtaHref="/contact"
+        description="Collaborate with Opsus Pharmaceuticals to bring WHO-GMP sourced medicines to your territory. Transparent commercial terms, reliable supply, and marketing support across 15+ states."
+        primaryCtaText="Partner With Us"
+        primaryCtaHref="/contact"
+        secondaryCtaText="Franchise Information"
+        secondaryCtaHref="/pcd-franchise"
         theme="dark"
         sideImage="/images/about/about-seedling-hands.jpg"
       />

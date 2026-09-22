@@ -38,7 +38,7 @@ export default function AboutPage() {
     },
     {
       title: 'Sustainable Growth',
-      description: 'Over a decade of consistent pan-India expansion across 28+ states with expanding international distribution.',
+      description: 'Over a decade of consistent expansion across 15+ states with expanding regional distribution.',
       iconName: "Truck",
       image: '/images/hero/hero-logistics-03.jpg',
     },
@@ -71,17 +71,17 @@ export default function AboutPage() {
 
               {/* CTAs */}
               <div className="mt-8 flex items-center gap-4 flex-wrap">
-                <Button href="/pcd-franchise" variant="primary" size="md" showArrow>
-                  Know More About Us
+                <Button href="/quality" variant="primary" size="md" showArrow>
+                  Our Quality Approach
                 </Button>
                 <Link
-                  href="/quality"
+                  href="/contact"
                   className="inline-flex items-center gap-2 text-sm font-semibold text-[#0A1B33] hover:text-[#2F6FA8] py-2 transition-colors"
                 >
                   <span className="w-8 h-8 rounded-full bg-[#2F6FA8]/10 text-[#2F6FA8] flex items-center justify-center">
                     <Play className="w-3.5 h-3.5 fill-current" />
                   </span>
-                  <span>Our Quality Approach</span>
+                  <span>Contact Our Team</span>
                 </Link>
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function AboutPage() {
                     Corporate Headquarters & Distribution Operations
                   </div>
                   <div className="text-slate-300 mt-0.5">
-                    Coordinating supply logistics across 28+ Indian states and global partners.
+                    Coordinating supply logistics across 15+ Indian states and healthcare partners.
                   </div>
                 </div>
               </div>
@@ -145,7 +145,7 @@ export default function AboutPage() {
                 <Users2 className="w-6 h-6" />
               </div>
               <h4 className="font-bold text-sm text-white">Partnerships</h4>
-              <p className="text-xs text-slate-300 mt-1">500+ Healthcare Partners</p>
+              <p className="text-xs text-slate-300 mt-1">150+ Healthcare Partners</p>
             </div>
 
             <div className="pt-4 md:pt-0 md:px-4 flex flex-col items-center text-center">
@@ -169,7 +169,7 @@ export default function AboutPage() {
               italicAccent="Partnership."
               description="A decade of distributor loyalty has been forged on operational consistency, scientific responsibility, and collaborative growth."
             />
-            <Button href="/pcd-franchise" variant="primary" size="md" showArrow>
+            <Button href="/contact" variant="primary" size="md" showArrow>
               Partner With Us
             </Button>
           </div>
@@ -229,7 +229,7 @@ export default function AboutPage() {
                   <div>
                     <h4 className="font-serif text-lg font-bold text-[#0A1B33]">Strong Partnerships</h4>
                     <p className="text-xs sm:text-sm text-[#5B6B7D] mt-0.5 leading-relaxed">
-                      Empowering medical representatives and distributors with monopoly rights, ethical trade terms, and marketing visual aids.
+                      Empowering medical representatives and distributors with ethical trade terms, dependable logistics, and marketing visual aids.
                     </p>
                   </div>
                 </div>
@@ -256,11 +256,11 @@ export default function AboutPage() {
         eyebrow="DISTRIBUTION PARTNERSHIP"
         title="Ready to Partner for"
         italicAccent="Growth?"
-        description="Join over 500+ successful healthcare partners across 28 states. Apply for monopoly marketing rights in your target territory."
-        primaryCtaText="Explore PCD Franchise"
-        primaryCtaHref="/pcd-franchise"
-        secondaryCtaText="Contact Corporate Office"
-        secondaryCtaHref="/contact"
+        description="Join over 150+ successful healthcare partners across 15+ states. Explore distribution and monopoly rights in your territory."
+        primaryCtaText="Contact Us"
+        primaryCtaHref="/contact"
+        secondaryCtaText="Franchise Details"
+        secondaryCtaHref="/pcd-franchise"
         theme="dark"
       />
     </div>

@@ -284,22 +284,22 @@ export default function QualityPage() {
 
                 <div className="p-6 rounded-2xl bg-[#FAF8F3] border border-[#E4E0D8]">
                   <div className="font-serif text-3xl sm:text-4xl font-bold text-[#2F6FA8] mb-1">
-                    500+
+                    150+
                   </div>
                   <div className="text-xs font-bold text-[#0A1B33] uppercase tracking-wider mb-1">
                     Trusted Partners
                   </div>
                   <p className="text-xs text-[#5B6B7D]">
-                    Long-term stockists and franchise associates across 28+ states.
+                    Long-term stockists and franchise associates across 15+ states.
                   </p>
                 </div>
 
                 <div className="p-6 rounded-2xl bg-[#FAF8F3] border border-[#E4E0D8]">
                   <div className="font-serif text-3xl sm:text-4xl font-bold text-[#A6317D] mb-1">
-                    Millions
+                    50,000+
                   </div>
                   <div className="text-xs font-bold text-[#0A1B33] uppercase tracking-wider mb-1">
-                    Lives Impacted
+                    Patients Reached
                   </div>
                   <p className="text-xs text-[#5B6B7D]">
                     Restoring health, mobility, and well-being every single day.
@@ -313,14 +313,14 @@ export default function QualityPage() {
 
       {/* 5. DARK GLOBE/NETWORK CTA BAND (§6.5 item 5) */}
       <CtaBand
-        eyebrow="GLOBAL STANDARDS"
+        eyebrow="QUALITY FIRST"
         title="Partnering for a"
         italicAccent="Healthier World."
-        description="Whether you are an established pharmaceutical distributor or an aspiring PCD franchise entrepreneur, partner with an organization that puts quality above all else."
+        description="Whether you are an established pharmaceutical distributor or seeking dependable regional supply, partner with an organization that puts quality above all else."
         primaryCtaText="Partner With Us"
-        primaryCtaHref="/pcd-franchise"
-        secondaryCtaText="Contact Quality Desk"
-        secondaryCtaHref="/contact"
+        primaryCtaHref="/contact"
+        secondaryCtaText="Franchise Model"
+        secondaryCtaHref="/pcd-franchise"
         theme="dark"
       />
     </div>

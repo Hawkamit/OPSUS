@@ -1,20 +1,51 @@
+export interface ActiveIngredient {
+  name: string;
+  strength: string;
+  unit?: string;
+}
+
+export interface ResearchSource {
+  title: string;
+  url?: string;
+  sourceType: string;
+  accessedDate?: string;
+}
+
 export interface Product {
   id: string;
   slug: string;
   name: string;
+  brandName?: string;
   genericName: string;
   composition: string;
-  dosageForm: 'Tablets' | 'Capsules' | 'Softgel Capsules' | 'Oral Suspension' | 'Syrup' | 'Injectable';
+  activeIngredients?: ActiveIngredient[];
+  dosageForm: string;
+  route?: string;
   packaging: string;
+  packSize?: string;
   category: string;
   categorySlug: string;
+  secondaryCategories?: string[];
+  tags?: string[];
   description: string;
+  howItWorks?: string;
   therapeuticUse: string;
+  uses?: string[];
+  dosageInformation?: string;
+  precautions?: string[];
+  sideEffects?: string[];
   storage: string;
   howSupplied: string;
+  prescriptionRequired?: boolean;
+  rxSchedule?: string;
   featured?: boolean;
   image: string;
+  images?: string[];
   partnerCertified: string;
+  manufacturer?: string;
+  marketer?: string;
+  researchSources?: ResearchSource[];
+  verificationStatus?: 'VERIFIED' | 'PARTIALLY VERIFIED' | 'NEEDS MANUAL VERIFICATION';
 }
 
 export interface TherapeuticArea {

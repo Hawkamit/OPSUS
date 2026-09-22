@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-12 border-b border-[#1F385C]">
           {/* Col 1: Brand & Identity (4 cols) */}
           <div className="lg:col-span-4">
-            <Logo variant="dark" size="md" className="mb-5" />
+            <Logo variant="dark" size="lg" className="mb-5" />
             <p className="text-slate-300 text-sm leading-relaxed mb-6">
               Opsus™ Pharmaceuticals is a premier marketing and distribution company founded in 2010. We deliver high-standard therapeutic solutions manufactured exclusively through accredited WHO-GMP certified partner facilities across India.
             </p>
@@ -69,13 +69,13 @@ export const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/pcd-franchise" className="text-slate-300 hover:text-[#C9A15E] transition-colors">
-                  PCD Franchise
+                <Link href="/therapeutic-areas" className="text-slate-300 hover:text-[#C9A15E] transition-colors">
+                  Therapeutic Areas
                 </Link>
               </li>
               <li>
-                <Link href="/therapeutic-areas" className="text-slate-300 hover:text-[#C9A15E] transition-colors">
-                  Therapeutic Areas
+                <Link href="/pcd-franchise" className="text-slate-300 hover:text-[#C9A15E] transition-colors">
+                  Franchise & Partnerships
                 </Link>
               </li>
               <li>
@@ -188,8 +188,8 @@ export const Footer: React.FC = () => {
             <Link href="/quality" className="hover:text-white transition-colors">
               Quality Compliance
             </Link>
-            <Link href="/pcd-franchise" className="text-[#C9A15E] hover:underline">
-              PCD Monopoly Terms
+            <Link href="/pcd-franchise" className="hover:text-[#C9A15E] transition-colors">
+              Franchise Terms
             </Link>
           </div>
         </div>

@@ -40,8 +40,8 @@ export default function TherapeuticAreasPage() {
                 <Button href="/products" variant="primary" size="md" showArrow>
                   Explore Our Products
                 </Button>
-                <Button href="/pcd-franchise" variant="secondary" size="md">
-                  Franchise by Therapeutic Area
+                <Button href="/contact" variant="secondary" size="md">
+                  Distribution Inquiries
                 </Button>
               </div>
             </div>
@@ -203,11 +203,11 @@ export default function TherapeuticAreasPage() {
         eyebrow="DISTRIBUTION OPPORTUNITIES"
         title="Better Therapies for a"
         italicAccent="Healthier Tomorrow."
-        description="Collaborate with Opsus Pharmaceuticals to distribute premier therapeutic formulations in your district. Benefit from monopoly marketing rights, marketing collateral, and robust product supply."
+        description="Collaborate with Opsus Pharmaceuticals to distribute premier therapeutic formulations in your district with dedicated regional support and robust product supply."
         primaryCtaText="Partner With Us"
-        primaryCtaHref="/pcd-franchise"
-        secondaryCtaText="Enquire Now"
-        secondaryCtaHref="/contact"
+        primaryCtaHref="/contact"
+        secondaryCtaText="Franchise Model"
+        secondaryCtaHref="/pcd-franchise"
         theme="dark"
       />
     </div>

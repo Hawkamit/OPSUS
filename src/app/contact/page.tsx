@@ -235,13 +235,13 @@ export default function ContactPage() {
               <div className="p-4 rounded-xl bg-[#0F2545] border border-[#1F385C] text-center">
                 <HeartHandshake className="w-6 h-6 text-[#2F6FA8] mx-auto mb-2" />
                 <span className="text-xs font-bold text-white block">Trusted Partnerships</span>
-                <span className="text-[11px] text-slate-300">500+ Active Ties</span>
+                <span className="text-[11px] text-slate-300">150+ Active Ties</span>
               </div>
 
               <div className="p-4 rounded-xl bg-[#0F2545] border border-[#1F385C] text-center">
                 <Globe2 className="w-6 h-6 text-[#C9A15E] mx-auto mb-2" />
-                <span className="text-xs font-bold text-white block">Expanding Access</span>
-                <span className="text-[11px] text-slate-300">28+ Indian States</span>
+                <span className="text-xs font-bold text-white block">Regional Reach</span>
+                <span className="text-[11px] text-slate-300">15+ Indian States</span>
               </div>
 
               <div className="p-4 rounded-xl bg-[#0F2545] border border-[#1F385C] text-center">
@@ -251,8 +251,8 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <Button href="/pcd-franchise" variant="gold" size="lg" showArrow>
-              Partner With Us
+            <Button href="#contact-form" variant="gold" size="lg" showArrow>
+              Send an Inquiry
             </Button>
           </div>
         </div>

@@ -135,10 +135,10 @@ export const blogPosts: BlogPost[] = [
     id: 'post-7',
     slug: 'cold-chain-logistics-pan-india-expansion',
     title: 'Overcoming the Last-Mile Challenge in Pan-India Pharmaceutical Distribution',
-    excerpt: 'Technological innovations and temperature-controlled logistics powering dependable medicine delivery across 28+ states.',
+    excerpt: 'Technological innovations and temperature-controlled logistics powering dependable medicine delivery across 15+ states.',
     content: [
       "India's vast geographical spread and climatic diversity create complex logistical dynamics for pharmaceutical distribution. From extreme summer temperatures exceeding 45°C in northern plains to humid coastal corridors, preserving thermal sensitivity during transit requires specialized engineering and operational discipline.",
-      "At Opsus Pharmaceuticals, expanding our pan-India network to over 28 states has been achieved through strategic regional hub positioning and digital supply chain integration. Real-time temperature dataloggers, insulated shippers, and monitored transport fleets safeguard sensitive softgels, syrups, and injectables throughout transit.",
+      "At Opsus Pharmaceuticals, expanding our regional distribution network to over 15 states has been achieved through strategic hub positioning and digital supply chain integration. Real-time temperature dataloggers, insulated shippers, and monitored transport fleets safeguard sensitive softgels, syrups, and injectables throughout transit.",
       "Automated stock level tracking and algorithmic re-order points prevent stockouts at the distributor level, ensuring that healthcare providers in Tier-2 and Tier-3 towns can reliably fulfill prescriptions without therapeutic delays."
     ],
     category: 'Industry Updates',

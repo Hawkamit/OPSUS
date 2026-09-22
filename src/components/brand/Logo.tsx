@@ -13,21 +13,21 @@ export const Logo: React.FC<LogoProps> = ({ variant = 'light', className = '', s
 
   const sizeStyles = {
     sm: {
-      imgSize: 32,
-      titleSize: 'text-lg',
-      subtitleSize: 'text-[9px]',
-      tracking: 'tracking-[0.18em]',
+      imgSize: 38,
+      titleSize: 'text-xl',
+      subtitleSize: 'text-[9.5px]',
+      tracking: 'tracking-[0.20em]',
     },
     md: {
-      imgSize: 42,
-      titleSize: 'text-2xl',
-      subtitleSize: 'text-[10px]',
+      imgSize: 50,
+      titleSize: 'text-2xl sm:text-[27px]',
+      subtitleSize: 'text-[11px]',
       tracking: 'tracking-[0.22em]',
     },
     lg: {
-      imgSize: 52,
-      titleSize: 'text-3xl',
-      subtitleSize: 'text-xs',
+      imgSize: 64,
+      titleSize: 'text-3xl sm:text-4xl',
+      subtitleSize: 'text-xs sm:text-[13px]',
       tracking: 'tracking-[0.26em]',
     },
   }[size];
