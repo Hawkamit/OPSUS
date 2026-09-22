@@ -40,7 +40,16 @@ export default async function TherapeuticAreaDetailPage({ params }: AreaDetailPa
   }
 
   // Get products belonging to this therapeutic area
-  const areaProducts = products.filter((p) => p.categorySlug === area.slug);
+  const areaProducts = products.filter(
+    (p) =>
+      p.categorySlug === area.slug ||
+      p.secondaryCategories?.some(
+        (sc) =>
+          sc.toLowerCase() === area.slug.toLowerCase() ||
+          sc.toLowerCase() === area.title.toLowerCase() ||
+          area.title.toLowerCase().includes(sc.toLowerCase())
+      )
+  );
 
   // Other related therapeutic areas
   const otherAreas = therapeuticAreas.filter((a) => a.slug !== area.slug).slice(0, 3);

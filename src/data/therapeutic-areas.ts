@@ -11,7 +11,7 @@ export const therapeuticAreas: TherapeuticArea[] = [
     iconName: 'Bone',
     colorAccent: '#2F6FA8',
     heroImage: '/images/therapeutic-areas/orthopaedics.jpg',
-    productsCount: 4,
+    productsCount: 6,
     keyConditions: [
       'Osteoarthritis, Rheumatoid Arthritis & Spondylitis',
       'Acute Muscle Spasms, Torticollis & Lumbago',
@@ -20,16 +20,16 @@ export const therapeuticAreas: TherapeuticArea[] = [
     ]
   },
   {
-    id: 'ta-anti-infectives',
-    slug: 'antibiotics-anti-infectives',
-    title: 'Antibiotics & Anti-Infectives',
+    id: 'ta-antibiotics-antibacterial',
+    slug: 'antibiotics-antibacterial',
+    title: 'Antibiotics & Antibacterial',
     tagline: 'Targeted Antimicrobial Precision',
     shortDescription: 'Broad-spectrum oral cephalosporins, fluoroquinolones, and beta-lactamase inhibitor combinations engineered for reliable pathogen eradication.',
-    fullDescription: 'In an era demanding responsible antibiotic stewardship, Opsus distributes high-potency anti-infective formulations designed to combat community-acquired and multidrug-resistant infections. Every batch is manufactured under rigorous cGMP protocols by certified partners, ensuring optimal stability, exact dissolution kinetics, and batch-to-batch therapeutic consistency.',
+    fullDescription: 'In an era demanding responsible antibiotic stewardship, Opsus distributes high-potency antibiotic and antibacterial formulations designed to combat community-acquired and multidrug-resistant infections. Every batch is manufactured under rigorous cGMP protocols by certified partners, ensuring optimal stability, exact dissolution kinetics, and batch-to-batch therapeutic consistency.',
     iconName: 'ShieldAlert',
     colorAccent: '#C9A15E',
     heroImage: '/images/therapeutic-areas/anti-infectives.jpg',
-    productsCount: 6,
+    productsCount: 8,
     keyConditions: [
       'Upper and Lower Respiratory Tract Bacterial Infections',
       'Complicated & Uncomplicated Urinary Tract Infections',
@@ -47,7 +47,7 @@ export const therapeuticAreas: TherapeuticArea[] = [
     iconName: 'Flame',
     colorAccent: '#C9A15E',
     heroImage: '/images/therapeutic-areas/gastroenterology.jpg',
-    productsCount: 3,
+    productsCount: 6,
     keyConditions: [
       'Gastroesophageal Reflux Disease (GERD) & Acid Regurgitation',
       'Erosive Esophagitis, Peptic Ulcerations & Hyperacidity',
@@ -65,7 +65,7 @@ export const therapeuticAreas: TherapeuticArea[] = [
     iconName: 'Wind',
     colorAccent: '#2F6FA8',
     heroImage: '/images/therapeutic-areas/respiratory.jpg',
-    productsCount: 4,
+    productsCount: 6,
     keyConditions: [
       'Productive Cough with Tenacious Phlegm & Bronchospasm',
       'Dry, Hacking, Non-Productive & Spasmodic Cough',
@@ -75,20 +75,20 @@ export const therapeuticAreas: TherapeuticArea[] = [
   },
   {
     id: 'ta-gynaecology',
-    slug: 'gynaecology-womens-health',
-    title: "Gynaecology & Women's Health",
+    slug: 'gynaecology',
+    title: 'Gynaecology',
     tagline: 'Dedicated Care Across Every Life Phase',
-    shortDescription: 'Targeted antispasmodics for dysmenorrhea and specialized amino acid formulations for placental perfusion and maternal-fetal wellness.',
-    fullDescription: "From managing acute menstrual colic to supporting optimal fetal circulation during high-risk pregnancies, our women's healthcare division delivers evidence-based therapeutic solutions. Manufactured under stringent cleanroom parameters, our products provide targeted efficacy and high clinical acceptance.",
+    shortDescription: 'Targeted antispasmodics for dysmenorrhea, specialized amino acid formulations, and comprehensive nutritional matrices for maternal-fetal and women’s health.',
+    fullDescription: 'From managing acute menstrual colic to supporting optimal fetal circulation during high-risk pregnancies, our gynaecology division delivers evidence-based therapeutic solutions. Manufactured under stringent cleanroom parameters, our products provide targeted efficacy and high clinical acceptance.',
     iconName: 'HeartHandshake',
     colorAccent: '#A6317D',
     heroImage: '/images/therapeutic-areas/gynaecology.jpg',
-    productsCount: 2,
+    productsCount: 11,
     keyConditions: [
       'Primary & Secondary Spasmodic Dysmenorrhea (Menstrual Colic)',
       'Intrauterine Growth Restriction (IUGR) & Oligohydramnios',
       'Placental Perfusion Optimization in High-Risk Pregnancy',
-      'Post-Procedural Gynecological Spasms'
+      'Pregnancy & Lactation Micronutrient & Calcium Replenishment'
     ]
   },
   {
@@ -96,17 +96,17 @@ export const therapeuticAreas: TherapeuticArea[] = [
     slug: 'pediatric-care',
     title: 'Pediatric Care & Infantile Wellness',
     tagline: 'Gentle, Precise Formulations for Growing Children',
-    shortDescription: 'Pediatric suspensions, carminative drops for infantile colic, and calibrated multivitamin growth drops with calibrated droppers.',
+    shortDescription: 'Pediatric suspensions, carminative drops for infantile colic, calibrated growth drops, and broad-spectrum pediatric antimicrobials.',
     fullDescription: 'Pediatric medicine demands exceptional dosing accuracy, palatability, and gentle gastrointestinal tolerance. Opsus delivers specialized drops with calibrated droppers and great-tasting suspensions formulated specifically to comfort infants and support healthy developmental milestones.',
     iconName: 'Sparkles',
     colorAccent: '#2F6FA8',
     heroImage: '/images/therapeutic-areas/pediatric.jpg',
-    productsCount: 3,
+    productsCount: 7,
     keyConditions: [
       'Infantile Colic, Trapped Gas & Evening Inconsolable Crying',
       'Pediatric Pyrexia (Fever) & Inflammatory Pain',
       'Infant & Toddler Growth Faltering & Poor Appetite',
-      'Post-Illness Convalescent Pediatric Recovery'
+      'Pediatric Respiratory & Gastrointestinal Bacterial Infections'
     ]
   },
   {
@@ -114,12 +114,12 @@ export const therapeuticAreas: TherapeuticArea[] = [
     slug: 'neurology',
     title: 'Neurology & Neuropathic Care',
     tagline: 'Precision Neuromodulation and Nerve Regeneration',
-    shortDescription: 'Sustained-release neuromodulators with bioactive neurotrophic vitamins for peripheral neuropathy, sciatica, and chronic nerve pain.',
+    shortDescription: 'Sustained-release neuromodulators with bioactive neurotrophic vitamins, adaptogens, and prokinetics for peripheral neuropathy, sciatica, and nerve health.',
     fullDescription: 'Chronic neuropathic pain requires continuous 24-hour neural stabilization combined with structural myelin sheath nourishment. Our neurology formulations combine sustained-release pregabalin with bioactive methylcobalamin to suppress aberrant ectopic pain discharges and promote peripheral axonal healing.',
     iconName: 'Activity',
     colorAccent: '#A6317D',
     heroImage: '/images/therapeutic-areas/neurology.jpg',
-    productsCount: 1,
+    productsCount: 10,
     keyConditions: [
       'Diabetic Peripheral Neuropathy & Burning Feet',
       'Lumbar & Cervical Radiculopathy (Sciatica / Pinched Nerve)',
@@ -132,17 +132,17 @@ export const therapeuticAreas: TherapeuticArea[] = [
     slug: 'dermatology',
     title: 'Dermatology & Skin Health',
     tagline: 'Advanced Cutaneous Therapy and Antimycotic Precision',
-    shortDescription: 'Micro-pelletized broad-spectrum triazole antifungals engineered for high keratin tissue penetration in resistant skin and nail mycoses.',
-    fullDescription: 'Cutaneous fungal and inflammatory challenges require targeted systemic agents that achieve high concentrations in skin and nail matrices. Opsus distributes high-standard dermatological antimycotics designed for rapid clearance of recalcitrant dermatophytoses and superficial fungal infections.',
+    shortDescription: 'Micro-pelletized broad-spectrum triazole antifungals, adaptogenic restorative capsules, and anti-allergic agents for resistant skin and nail conditions.',
+    fullDescription: 'Cutaneous fungal, allergic, and inflammatory challenges require targeted systemic agents that achieve high concentrations in skin and nail matrices. Opsus distributes high-standard dermatological antimycotics and restorative nutrients designed for rapid clearance of recalcitrant dermatophytoses and cutaneous allergies.',
     iconName: 'ShieldCheck',
     colorAccent: '#A6317D',
     heroImage: '/images/therapeutic-areas/dermatology.jpg',
-    productsCount: 1,
+    productsCount: 4,
     keyConditions: [
       'Recalcitrant Tinea Corporis, Tinea Cruris & Tinea Pedis',
       'Onychomycosis (Fungal Nail Bed Infections)',
       'Cutaneous & Mucocutaneous Candidiasis',
-      'Pityriasis Versicolor & Superficial Dermatomycoses'
+      'Chronic Idiopathic Urticaria & Allergic Dermatoses'
     ]
   },
   {
@@ -155,7 +155,7 @@ export const therapeuticAreas: TherapeuticArea[] = [
     iconName: 'Sparkles',
     colorAccent: '#C9A15E',
     heroImage: '/images/therapeutic-areas/nutraceuticals.jpg',
-    productsCount: 3,
+    productsCount: 7,
     keyConditions: [
       'General Debility, Chronic Fatigue & Convalescence',
       'Cellular Oxidative Stress & Free Radical Defense',

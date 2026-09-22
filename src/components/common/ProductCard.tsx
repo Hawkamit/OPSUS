@@ -53,22 +53,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, className = '
           />
         </div>
 
-        {/* Product Brand & Generic Lockup */}
-        <div className="min-w-0 w-full">
-          <h3 className="font-serif text-xs sm:text-base md:text-lg font-bold text-[#0A1B33] group-hover:text-[#2F6FA8] transition-colors mb-0.5 line-clamp-1 leading-snug break-words">
+        {/* Product Brand & Name Lockup */}
+        <div className="min-w-0 w-full mb-1">
+          <h3 className="font-serif text-sm sm:text-base md:text-lg font-bold text-[#0A1B33] group-hover:text-[#2F6FA8] transition-colors leading-snug break-words">
             {product.name}
           </h3>
-          <p className="font-mono text-[8px] sm:text-xs text-[#2F6FA8] font-semibold line-clamp-1 mb-0.5 break-words">
-            {product.composition}
-          </p>
-          <p className="text-[7.5px] sm:text-[11px] text-[#5B6B7D] font-normal line-clamp-1 mb-1.5 sm:mb-2 break-words">
-            {product.genericName}
-          </p>
-
-          {/* Brief Description (visible on tablet/desktop) */}
-          <p className="hidden md:block text-xs text-[#5B6B7D] leading-relaxed line-clamp-2 mb-3">
-            {product.description}
-          </p>
         </div>
       </div>
 
