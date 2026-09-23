@@ -4,6 +4,8 @@ import Image from 'next/image';
 import { ArrowRight, Pill, ShieldAlert, CheckCircle } from 'lucide-react';
 import { Product } from '@/types';
 
+import { FormattedProductName } from '@/components/common/FormattedProductName';
+
 interface ProductCardProps {
   product: Product;
   className?: string;
@@ -56,7 +58,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, className = '
         {/* Product Brand & Name Lockup */}
         <div className="min-w-0 w-full mb-1">
           <h3 className="font-serif text-sm sm:text-base md:text-lg font-bold text-[#0A1B33] group-hover:text-[#2F6FA8] transition-colors leading-snug break-words">
-            {product.name}
+            <FormattedProductName name={product.name} />
           </h3>
         </div>
       </div>

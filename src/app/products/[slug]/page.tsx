@@ -14,6 +14,7 @@ import { Button } from '@/components/common/Button';
 import { ProductCard } from '@/components/common/ProductCard';
 import { ContactForm } from '@/components/common/ContactForm';
 import { ProductImageGallery } from '@/components/products/ProductImageGallery';
+import { FormattedProductName } from '@/components/common/FormattedProductName';
 
 interface ProductDetailPageProps {
   params: Promise<{ slug: string }>;
@@ -133,7 +134,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
               )}
             </div>
             <h1 className="font-serif text-2xl sm:text-3xl font-bold text-[#0A1B33] tracking-tight">
-              {product.name}
+              <FormattedProductName name={product.name} />
             </h1>
             <p className="font-mono text-xs sm:text-sm text-[#2F6FA8] font-semibold mt-1">
               {product.composition}
@@ -236,7 +237,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
                 </div>
 
                 <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#0A1B33] tracking-tight">
-                  {product.name}
+                  <FormattedProductName name={product.name} />
                 </h1>
                 <p className="font-mono text-base text-[#2F6FA8] font-semibold mt-1">
                   {product.composition}

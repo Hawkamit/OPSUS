@@ -43,7 +43,7 @@ export const products: Product[] = [
       'Transient elevations in liver transaminases (rare)'
     ],
     storage: 'Store protected from light and moisture at a temperature not exceeding 30°C.',
-    howSupplied: 'Packaged in moisture-impermeable ALU-ALU blister strips of 10 tablets, 10 strips per carton.',
+    howSupplied: 'Packaged in cold-form moisture-barrier ALU-ALU foil strips of 10 tablets, 10 strips per carton (100 tablets).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
     featured: true,
@@ -104,7 +104,7 @@ export const products: Product[] = [
       'Dizziness (infrequent)'
     ],
     storage: 'Store in a cool, dry place below 25°C. Protect from direct sunlight and moisture.',
-    howSupplied: 'Packaged in moisture-impermeable ALU-ALU blister strips of 10 tablets, 10 strips per carton.',
+    howSupplied: 'Packaged in cold-form moisture-barrier ALU-ALU foil strips of 10 tablets, 10 strips per carton (100 tablets).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
     featured: true,
@@ -165,7 +165,7 @@ export const products: Product[] = [
       'Cutaneous allergic reactions (rare)'
     ],
     storage: 'Store below 25°C in a dry place. Protect from heat and direct sunlight.',
-    howSupplied: 'Packaged in moisture-impermeable ALU-ALU blister strips of 10 tablets, 10 strips per carton.',
+    howSupplied: 'Packaged in cold-form moisture-barrier ALU-ALU foil strips of 10 tablets, 10 strips per carton (100 tablets).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
     featured: true,
@@ -225,7 +225,7 @@ export const products: Product[] = [
       'Mild photosensitivity or cutaneous reactions'
     ],
     storage: 'Store in a cool, dark, and dry place below 30°C.',
-    howSupplied: 'ALU-ALU blister strips of 10 film-coated tablets in cartons of 10 strips.',
+    howSupplied: 'ALU-ALU foil strips of 10 film-coated tablets, 10 strips per carton (100 tablets).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H1',
     featured: true,
@@ -247,42 +247,43 @@ export const products: Product[] = [
     slug: 'rexoflox-m',
     name: 'Rexoflox-M Syp',
     brandName: 'Rexoflox-M Syp',
-    genericName: 'Ofloxacin & Metronidazole Oral Suspension',
-    composition: 'Ofloxacin 50 mg + Metronidazole 120 mg / 5 ml',
+    genericName: 'Ofloxacin, Metronidazole & Simethicone Oral Suspension',
+    composition: 'Ofloxacin 50 mg + Metronidazole 120 mg + Simethicone 10 mg / 5 ml',
     activeIngredients: [
       { name: 'Ofloxacin IP', strength: '50 mg / 5 ml' },
       { name: 'Metronidazole Benzoate IP (eq. to Metronidazole)', strength: '120 mg / 5 ml' },
+      { name: 'Simethicone IP', strength: '10 mg / 5 ml' }
     ],
     dosageForm: 'Oral Suspension',
     route: 'Oral',
-    packaging: '30 ml PET Bottle with Measuring Cap',
+    packaging: '30 ml Bottle with Measuring Cap',
     packSize: '30 ml Bottle',
     category: 'Antibiotics & Antibacterial',
     categorySlug: 'antibiotics-antibacterial',
     secondaryCategories: ['Pediatric Care', 'Gastroenterology'],
-    tags: ['Ofloxacin', 'Metronidazole', 'Pediatric', 'Gastroenteritis', 'Amoebiasis', 'Diarrhea', 'Syrup'],
-    description: 'Rexoflox-M Syp is a comprehensive oral suspension combining a fluoroquinolone antimicrobial with an antiprotozoal/anaerobic agent. It provides targeted pediatric and adult coverage against mixed bacterial, protozoal, and anaerobic gastrointestinal infections.',
-    howItWorks: 'Ofloxacin targets aerobic Gram-negative and Gram-positive bacilli via DNA gyrase inhibition. Metronidazole interacts with microbial DNA to cause helical strand breakage in anaerobes and protozoa like Entamoeba histolytica and Giardia lamblia.',
-    therapeuticUse: 'Indicated for acute bacterial diarrhea, amoebic dysentery, giardiasis, mixed intra-abdominal gastrointestinal infections, and dental/oral infections involving anaerobic flora.',
+    tags: ['Ofloxacin', 'Metronidazole', 'Simethicone', 'Diarrhea', 'Dysentery', 'Amoebiasis', 'Oral Suspension'],
+    description: 'Rexoflox-M Syp is a synergistic, broad-spectrum antimicrobial, antiprotozoal, and antiflatulent oral suspension (30 ml bottle). It combines Ofloxacin with Metronidazole and Simethicone for comprehensive clinical resolution of polymicrobial infectious diarrhea, amoebic dysentery, and associated intestinal colic.',
+    howItWorks: 'Ofloxacin kills pathogenic enteric Gram-negative aerobic bacteria by inhibiting DNA gyrase. Metronidazole reduces cytotoxic nitro radicals that damage protozoan and anaerobic bacterial DNA, effectively eradicating Entamoeba histolytica and Giardia lamblia. Simethicone relieves painful gas accumulation and bloating.',
+    therapeuticUse: 'Indicated for acute bacterial diarrhea, amoebic dysentery, mixed protozoal-bacterial gastrointestinal infections, and intra-abdominal pelvic infections.',
     uses: [
-      'Acute Bacterial Gastroenteritis & Bacillary Dysentery',
-      'Intestinal Amoebiasis & Giardiasis',
-      'Mixed Aerobic-Anaerobic Abdominal Infections',
-      'Pediatric Gastrointestinal Sepsis'
+      'Acute Infectious Diarrhea of Mixed Aerobic-Anaerobic Origin',
+      'Intestinal Amoebiasis & Amoebic Dysentery',
+      'Giardiasis with Abdominal Cramping & Gas Distension',
+      'Gastroenteritis & Enterocolitis in Pediatric and Adult Patients'
     ],
     dosageInformation: 'Shake well before use. Dosing is based on body weight and clinical evaluation by a healthcare professional.',
     precautions: [
-      'Avoid consumption of alcohol or alcohol-containing medicines during and 48 hours after treatment.',
-      'Use with caution in patients with hepatic disease or pre-existing central nervous system disorders.',
-      'Complete the full prescribed duration.'
+      'Contraindicated in patients with known hypersensitivity to fluoroquinolones or nitroimidazoles.',
+      'Avoid consumption of alcohol or propylene glycol-containing preparations during and 48 hours after treatment.',
+      'Use with caution in patients with preexisting active neurological or hepatic disorders.'
     ],
     sideEffects: [
-      'Metallic taste in mouth, nausea, or epigastric discomfort',
-      'Darkening of urine (harmless metabolic byproduct of metronidazole)',
-      'Transient headache or mild dizziness'
+      'Metallic taste, nausea, or transient abdominal discomfort',
+      'Mild headache or dizziness',
+      'Darkening of urine due to metronidazole metabolites (harmless)'
     ],
-    storage: 'Store below 25°C. Protect from light. Keep bottle tightly closed.',
-    howSupplied: 'Bottle of 30 ml suspension with a graduated dosing cap.',
+    storage: 'Store in a cool, dry place below 25°C. Protect from direct sunlight. Do not freeze.',
+    howSupplied: 'Supplied in 30 ml amber PET bottle with tamper-evident seal and graduated measuring cup.',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H1',
     featured: false,
@@ -295,7 +296,7 @@ export const products: Product[] = [
     marketer: 'Opsus Pharmaceuticals',
     researchSources: [
       { title: 'Indian Pharmacopoeia (IP)', sourceType: 'Pharmacopoeia' },
-      { title: 'CIMS Gastroenterology Formulary', sourceType: 'Pharmaceutical Index' }
+      { title: 'Indian Academy of Pediatrics (IAP) Guidelines on Pediatric Diarrhea', sourceType: 'Clinical Guidelines' }
     ],
     verificationStatus: 'VERIFIED'
   },
@@ -316,87 +317,30 @@ export const products: Product[] = [
     category: 'Antibiotics & Antibacterial',
     categorySlug: 'antibiotics-antibacterial',
     secondaryCategories: ['Respiratory & Allergy'],
-    tags: ['Cefpodoxime', 'Cephalosporin', '3rd Generation', 'Pneumonia', 'Sinusitis', 'Antibiotic'],
-    description: 'Podsus-200 Tab is an advanced third-generation oral cephalosporin prodrug. Following oral administration, it is rapidly de-esterified to active cefpodoxime, providing potent bactericidal action against key respiratory, cutaneous, and urinary pathogens.',
-    howItWorks: 'Cefpodoxime binds to penicillin-binding proteins (PBPs) on the bacterial inner membrane, inhibiting transpeptidation during cell wall peptidoglycan synthesis, which triggers autolytic cell breakdown.',
-    therapeuticUse: 'Indicated for upper and lower respiratory tract infections (community-acquired pneumonia, acute exacerbations of chronic bronchitis, sinusitis, tonsillitis), uncomplicated skin infections, and urinary tract infections.',
+    tags: ['Cefpodoxime', 'Cephalosporin', 'Third Generation', 'Antibiotic', 'Pneumonia', 'Sinusitis'],
+    description: 'Podsus-200 Tab is an extended-spectrum oral third-generation cephalosporin prodrug with enhanced stability against beta-lactamase degradation. It offers high tissue penetration in respiratory mucosal linings and urinary tract tissues.',
+    howItWorks: 'Following oral absorption, Cefpodoxime Proxetil is rapidly de-esterified to active Cefpodoxime, which binds to penicillin-binding proteins (PBPs) to inhibit bacterial cell wall peptidoglycan synthesis, resulting in cell lysis and death.',
+    therapeuticUse: 'Indicated for community-acquired pneumonia, acute bacterial exacerbations of chronic bronchitis, acute maxillary sinusitis, pharyngotonsillitis, uncomplicated skin infections, and uncomplicated gonococcal/urinary tract infections.',
     uses: [
-      'Community-Acquired Pneumonia & Bronchitis',
-      'Acute Maxillary Sinusitis & Pharyngitis',
-      'Acute Otitis Media',
-      'Uncomplicated Skin & Soft Tissue Infections',
-      'Uncomplicated Urinary Tract Infections'
+      'Community-Acquired Pneumonia (CAP)',
+      'Acute Bacterial Exacerbation of Chronic Bronchitis',
+      'Acute Maxillary Sinusitis & Tonsillopharyngitis',
+      'Uncomplicated Urinary Tract Infections (UTI)',
+      'Skin & Soft Tissue Infections'
     ],
-    dosageInformation: 'Take with food to enhance gastrointestinal absorption. Use strictly as directed by the treating physician.',
+    dosageInformation: 'To enhance bioavailability, administer with food. Standard adult dose is 200 mg every 12 hours for 5 to 14 days depending on infection severity.',
     precautions: [
-      'Inquire about prior hypersensitivity to cephalosporins or penicillins before use.',
-      'Adjust dosage in patients with severe renal impairment.',
-      'Do not discontinue treatment prematurely.'
+      'Assess for previous cephalosporin or penicillin hypersensitivity reactions before initiating therapy.',
+      'Dose adjustment is required in patients with severe renal impairment (CrCl < 50 mL/min).',
+      'Clostridium difficile-associated diarrhea (CDAD) should be evaluated if severe diarrhea occurs.'
     ],
     sideEffects: [
       'Diarrhea, loose stools, or mild nausea',
-      'Abdominal pain or flatulence',
-      'Skin rash or pruritus (infrequent)'
+      'Transient abdominal pain or headache',
+      'Vaginal candidiasis or mild rash'
     ],
-    storage: 'Store protected from moisture and direct light at a temperature below 25°C.',
-    howSupplied: '10 blister strips of 10 film-coated tablets in ALU-ALU pack.',
-    prescriptionRequired: true,
-    rxSchedule: 'Schedule H1',
-    featured: true,
-    image: '/images/products/podsus-200-box.png',
-    images: [
-      '/images/products/podsus-200-box.png',
-      '/images/products/podsus-200-strip.png'
-    ],
-    partnerCertified: 'Manufactured in WHO-GMP Certified Facilities',
-    manufacturer: 'Opsus Healthcare Partner Facility (WHO-GMP Certified)',
-    marketer: 'Opsus Pharmaceuticals',
-    researchSources: [
-      { title: 'Indian Pharmacopoeia (IP)', sourceType: 'Pharmacopoeia' },
-      { title: 'Clinical Pharmacokinetics of Cefpodoxime Proxetil', sourceType: 'Medical Reference' }
-    ],
-    verificationStatus: 'VERIFIED'
-  },
-  {
-    id: 'topod-50',
-    slug: 'topod-50',
-    name: 'Topod-50 Susp.',
-    brandName: 'Topod-50 Susp.',
-    genericName: 'Cefpodoxime Proxetil Oral Suspension IP 50 mg / 5 ml',
-    composition: 'Each 5 ml of reconstituted suspension contains Cefpodoxime Proxetil IP eq. to Cefpodoxime 50 mg',
-    activeIngredients: [
-      { name: 'Cefpodoxime Proxetil IP', strength: '50 mg / 5 ml (as Cefpodoxime)' }
-    ],
-    dosageForm: 'Oral Suspension',
-    route: 'Oral',
-    packaging: '30 ml Bottle with Sterile Water for Reconstitution & Measuring Cap',
-    packSize: '30 ml Bottle',
-    category: 'Antibiotics & Antibacterial',
-    categorySlug: 'antibiotics-antibacterial',
-    secondaryCategories: ['Pediatric Care'],
-    tags: ['Cefpodoxime', 'Topod', 'Pediatric Antibiotic', 'Oral Suspension', 'Otitis Media', 'Pneumonia'],
-    description: 'Topod-50 Susp. is a third-generation pediatric oral cephalosporin suspension delivering broad-spectrum bactericidal efficacy against acute pediatric respiratory, middle ear, and urinary bacterial infections.',
-    howItWorks: 'Cefpodoxime inhibits bacterial cell wall synthesis by binding to essential penicillin-binding proteins (PBPs), leading to bacterial cell wall lysis and eradication of resistant pathogens.',
-    therapeuticUse: 'Indicated for acute otitis media, pharyngotonsillitis, community-acquired pediatric pneumonia, sinusitis, and urinary tract infections in children.',
-    uses: [
-      'Acute Pediatric Otitis Media (Middle Ear Infection)',
-      'Pharyngitis & Tonsillitis',
-      'Community-Acquired Pediatric Lower Respiratory Infections',
-      'Acute Sinusitis & Skin/Soft Tissue Infections'
-    ],
-    dosageInformation: 'Reconstitute with the sterile water provided. Shake well before each dose. Dosing must follow body weight (mg/kg) under pediatric guidance.',
-    precautions: [
-      'Store reconstituted suspension in refrigerator or below 25°C and use within recommended duration.',
-      'Check history of beta-lactam hypersensitivity.',
-      'Complete the full course prescribed.'
-    ],
-    sideEffects: [
-      'Loose stools or transient diarrhea',
-      'Mild nausea or vomiting',
-      'Mild rash (rare)'
-    ],
-    storage: 'Store dry powder below 25°C in a dry place. Store reconstituted suspension in a cool place.',
-    howSupplied: '30 ml bottle with sterile water ampoule for reconstitution and calibrated measuring cap.',
+    storage: 'Store protected from moisture and light at a temperature not exceeding 25°C.',
+    howSupplied: 'Cold-form moisture-impermeable ALU-ALU foil strips of 10 film-coated tablets, 10 strips per carton (100 tablets).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H1',
     featured: true,
@@ -409,19 +353,76 @@ export const products: Product[] = [
     marketer: 'Opsus Pharmaceuticals',
     researchSources: [
       { title: 'Indian Pharmacopoeia (IP)', sourceType: 'Pharmacopoeia' },
-      { title: 'Indian Academy of Pediatrics (IAP) Guidelines', sourceType: 'Pediatric Reference' }
+      { title: 'IDSA Community-Acquired Pneumonia Guidelines', sourceType: 'Medical Reference' }
     ],
     verificationStatus: 'VERIFIED'
   },
   {
-    id: 'cefobest-200',
-    slug: 'cefobest-200',
+    id: 'topod-50-susp',
+    slug: 'topod-50-susp',
+    name: 'Topod-50 Susp.',
+    brandName: 'Topod-50 Susp.',
+    genericName: 'Cefpodoxime for Oral Suspension IP',
+    composition: 'Each 5 ml of reconstituted suspension contains Cefpodoxime Proxetil IP eq. to Cefpodoxime 50 mg',
+    activeIngredients: [
+      { name: 'Cefpodoxime Proxetil IP', strength: '50 mg / 5 ml (as Cefpodoxime)' }
+    ],
+    dosageForm: 'Oral Suspension',
+    route: 'Oral',
+    packaging: '15g/30 ml Bottle with Sterile Water for Reconstitution',
+    packSize: '15g/30 ml Dry Syrup with Sterile Water',
+    category: 'Antibiotics & Antibacterial',
+    categorySlug: 'antibiotics-antibacterial',
+    secondaryCategories: ['Pediatric Care', 'Respiratory & Allergy'],
+    tags: ['Cefpodoxime', 'Oral Suspension', 'Pediatric Antibiotic', 'Otitis Media', 'Tonsillitis', 'Dry Syrup', 'Orange Flavour'],
+    description: 'Topod-50 Susp. (Orange Flavour) is a pediatric dry syrup formulation containing Cefpodoxime for Oral Suspension IP (15g/30 ml) accompanied by sterile water for reconstitution. It provides broad-spectrum third-generation cephalosporin bactericidal efficacy for pediatric respiratory, ENT, and urinary tract infections.',
+    howItWorks: 'Cefpodoxime binds to penicillin-binding proteins (PBPs) to inhibit bacterial peptidoglycan cell wall synthesis, resulting in bacterial lysis and rapid elimination of Gram-positive and Gram-negative pediatric pathogens.',
+    therapeuticUse: 'Indicated for pediatric acute otitis media, tonsillopharyngitis, acute sinusitis, bronchitis, skin and soft tissue infections, and pediatric urinary tract infections caused by susceptible organisms.',
+    uses: [
+      'Pediatric Acute Otitis Media & Ear Infections',
+      'Acute Tonsillopharyngitis & Streptococcal Sore Throat',
+      'Acute Bacterial Sinusitis & Lower Respiratory Infections',
+      'Pediatric Urinary Tract Infections (UTI)',
+      'Uncomplicated Skin & Soft Tissue Infections'
+    ],
+    dosageInformation: 'Direction for preparation: Shake the bottle well to loosen the powder. Slowly add sterile water (supplied) up to the mark on the bottle and shake well. Adjust volume if necessary. Standard pediatric dosage is as directed by the Physician.',
+    precautions: [
+      'Check for penicillin or cephalosporin allergy history before starting therapy.',
+      'Shake vigorously before dispensing each dose.',
+      'Complete the entire prescribed antibiotic course. Discard remaining suspension after 7 days.'
+    ],
+    sideEffects: [
+      'Mild diarrhea or soft stools',
+      'Nausea or abdominal discomfort',
+      'Mild diaper rash or cutaneous allergic eruption'
+    ],
+    storage: 'Store below 25°C. Protect from light & moisture. Keep refrigerated after reconstitution and discard after 7 days.',
+    howSupplied: 'Supplied as 15g dry syrup powder in 30 ml bottle accompanied by 30 ml sterile water for reconstitution in a paediatric carton.',
+    prescriptionRequired: true,
+    rxSchedule: 'Schedule H',
+    featured: true,
+    image: '/images/products/topod-50-box.png',
+    images: [
+      '/images/products/topod-50-box.png'
+    ],
+    partnerCertified: 'Manufactured in WHO-GMP Certified Facilities',
+    manufacturer: 'Opsus Healthcare Partner Facility (WHO-GMP Certified)',
+    marketer: 'Opsus Pharmaceuticals',
+    researchSources: [
+      { title: 'Indian Pharmacopoeia (IP)', sourceType: 'Pharmacopoeia' },
+      { title: 'Indian Academy of Pediatrics (IAP) Infectious Disease Guidelines', sourceType: 'Pediatric Reference' }
+    ],
+    verificationStatus: 'VERIFIED'
+  },
+  {
+    id: 'cefet-200',
+    slug: 'cefet-200',
     name: 'Cefobest-200 Tab',
     brandName: 'Cefobest-200 Tab',
-    genericName: 'Cefixime Dispersible Tablets IP 200 mg',
-    composition: 'Cefixime IP (eq. to Anhydrous Cefixime 200 mg)',
+    genericName: 'Cefixime Tablets IP 200 mg',
+    composition: 'Cefixime IP (eq. to Anhydrous Cefixime) 200 mg',
     activeIngredients: [
-      { name: 'Cefixime IP (eq. to Anhydrous Cefixime)', strength: '200 mg' }
+      { name: 'Cefixime IP (Trihydrate)', strength: '200 mg (as Anhydrous Cefixime)' }
     ],
     dosageForm: 'Tablets',
     route: 'Oral',
@@ -429,31 +430,31 @@ export const products: Product[] = [
     packSize: '10 x 10 Tablets',
     category: 'Antibiotics & Antibacterial',
     categorySlug: 'antibiotics-antibacterial',
-    secondaryCategories: ['Pediatric Care', 'Respiratory & Allergy'],
-    tags: ['Cefixime', 'Dispersible', 'Cephalosporin', 'Typhoid', 'Respiratory', 'UTI'],
-    description: 'Cefobest-200 Tab is an orally active third-generation cephalosporin formulated as convenient dispersible tablets. It exhibits high stability against bacterial beta-lactamases and high potency against common community bacterial pathogens.',
-    howItWorks: 'Cefixime exerts bactericidal action by inhibiting bacterial cell wall synthesis through binding to specific penicillin-binding proteins (PBPs), leading to bacterial lysis and death.',
-    therapeuticUse: 'Indicated for uncomplicated urinary tract infections, otitis media, pharyngitis, tonsillitis, acute bronchitis, typhoid fever, and uncomplicated gonorrhea.',
+    secondaryCategories: ['Respiratory & Allergy'],
+    tags: ['Cefixime', 'Cephalosporin', 'Dispersible', 'Typhoid', 'UTI', 'Respiratory'],
+    description: 'Cefobest-200 Tab is an oral third-generation cephalosporin antibiotic exhibiting high stability against beta-lactamase hydrolysis and pronounced activity against Enterobacteriaceae, Haemophilus influenzae, and Streptococcus pneumoniae.',
+    howItWorks: 'Cefixime binds to bacterial penicillin-binding proteins (PBPs), inhibiting the transpeptidation step of cell wall synthesis, resulting in osmotic lysis and bactericidal death of dividing bacterial cells.',
+    therapeuticUse: 'Indicated for uncomplicated urinary tract infections, otitis media, pharyngitis, tonsillitis, acute exacerbations of chronic bronchitis, and uncomplicated enteric fever (typhoid fever).',
     uses: [
-      'Uncomplicated Urinary Tract Infections',
-      'Acute Otitis Media & Tonsillopharyngitis',
-      'Acute Exacerbation of Chronic Bronchitis',
-      'Typhoid Fever (Enteric Fever)',
-      'Uncomplicated Urogenital Gonorrhea'
+      'Uncomplicated Urinary Tract Infections (Cystitis)',
+      'Enteric Fever (Typhoid & Paratyphoid Fever)',
+      'Acute Otitis Media & Upper Respiratory Infections',
+      'Acute Bacterial Bronchitis & Pharyngotonsillitis',
+      'Cervical / Urethral Gonococcal Infections'
     ],
-    dosageInformation: 'May be dispersed in a small quantity of drinking water immediately prior to administration or swallowed whole with water as prescribed.',
+    dosageInformation: 'Administer orally once or twice daily with or without food. Complete the prescribed duration to prevent the emergence of bacterial resistance.',
     precautions: [
-      'Verify patient allergy history for beta-lactam antibiotics.',
-      'Prolonged use may lead to overgrowth of non-susceptible organisms.',
-      'Dosage adjustment is advised in moderate-to-severe renal failure.'
+      'Exercise caution in patients with known history of hypersensitivity to beta-lactam antibiotics.',
+      'Adjust dosage in patients with severe renal impairment.',
+      'Monitor for signs of antibiotic-associated pseudomembranous colitis.'
     ],
     sideEffects: [
-      'Mild gastrointestinal upset, diarrhea, or nausea',
-      'Abdominal cramps or indigestion',
-      'Transient elevations in liver or renal parameters'
+      'Diarrhea, loose stools, or abdominal pain',
+      'Dyspepsia and flatulence',
+      'Headache or dizziness (infrequent)'
     ],
-    storage: 'Store in a dry place below 25°C. Protect from light.',
-    howSupplied: 'ALU-ALU blister strips of 10 dispersible tablets packed in cartons of 10 strips.',
+    storage: 'Store protected from light and moisture at a temperature not exceeding 30°C.',
+    howSupplied: 'ALU-ALU foil strips of 10 dispersible tablets packed in cartons of 10 strips (100 tablets).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H1',
     featured: true,
@@ -466,19 +467,19 @@ export const products: Product[] = [
     marketer: 'Opsus Pharmaceuticals',
     researchSources: [
       { title: 'Indian Pharmacopoeia (IP)', sourceType: 'Pharmacopoeia' },
-      { title: 'National Guidelines for Antimicrobial Stewardship', sourceType: 'Regulatory' }
+      { title: 'National Centre for Disease Control (NCDC) Antimicrobial Guidelines', sourceType: 'Regulatory' }
     ],
     verificationStatus: 'VERIFIED'
   },
   {
-    id: 'cefobest-o',
-    slug: 'cefobest-o',
+    id: 'cefet-o',
+    slug: 'cefet-o',
     name: 'Cefobest-O Tab',
     brandName: 'Cefobest-O Tab',
     genericName: 'Cefixime & Ofloxacin Tablets IP',
-    composition: 'Cefixime IP (eq. to Anhydrous Cefixime 200 mg) + Ofloxacin IP 200 mg',
+    composition: 'Cefixime IP (eq. to Anhydrous Cefixime) 200 mg + Ofloxacin IP 200 mg',
     activeIngredients: [
-      { name: 'Cefixime IP (eq. to Anhydrous Cefixime)', strength: '200 mg' },
+      { name: 'Cefixime IP', strength: '200 mg (as Anhydrous Cefixime)' },
       { name: 'Ofloxacin IP', strength: '200 mg' },
     ],
     dosageForm: 'Tablets',
@@ -488,30 +489,30 @@ export const products: Product[] = [
     category: 'Antibiotics & Antibacterial',
     categorySlug: 'antibiotics-antibacterial',
     secondaryCategories: ['Respiratory & Allergy'],
-    tags: ['Cefixime', 'Ofloxacin', 'Dual Antibiotic', 'Typhoid', 'Resistant Infection', 'Broad Spectrum'],
-    description: 'Cefobest-O Tab combines an oral 3rd-generation cephalosporin (Cefixime) with a broad-spectrum fluoroquinolone (Ofloxacin). This rational dual-mechanism combination provides synergistic bactericidal activity against multidrug-resistant pathogens.',
-    howItWorks: 'Cefixime disrupts bacterial cell wall peptidoglycan synthesis, while Ofloxacin simultaneously inhibits topoisomerase II (DNA gyrase) and topoisomerase IV. The dual attack minimizes the emergence of bacterial resistance.',
-    therapeuticUse: 'Indicated for multidrug-resistant typhoid fever, severe community-acquired respiratory tract infections, complicated urinary tract infections, and persistent mixed pelvic infections.',
+    tags: ['Cefixime', 'Ofloxacin', 'Dual Action', 'Typhoid', 'Resistant UTI', 'Dual Antibiotic'],
+    description: 'Cefobest-O Tab combines the third-generation cephalosporin Cefixime with the fluoroquinolone Ofloxacin. This dual-action fixed-dose combination delivers synergistic bactericidal coverage against drug-resistant Gram-negative and Gram-positive pathogens.',
+    howItWorks: 'Cefixime disrupts bacterial cell wall synthesis while Ofloxacin arrests bacterial DNA gyrase and topoisomerase IV. This dual-mechanism strategy delivers robust eradication of multidrug-resistant isolates.',
+    therapeuticUse: 'Indicated for severe or resistant typhoid fever, complicated intra-abdominal infections, multi-drug resistant urinary tract infections, and severe community-acquired respiratory tract infections.',
     uses: [
-      'Multidrug-Resistant Enteric Fever (Typhoid)',
-      'Severe Community-Acquired Lower Respiratory Tract Infections',
+      'Multi-Drug Resistant (MDR) Typhoid & Enteric Fever',
       'Complicated & Recurrent Urinary Tract Infections',
-      'Pelvic Inflammatory Disease & Gynecological Infections',
-      'Intra-abdominal Sepsis & Bacterial Gastroenteritis'
+      'Severe Community-Acquired Respiratory Tract Infections',
+      'Gastrointestinal & Intra-Abdominal Polymicrobial Infections',
+      'Gynaecological & Pelvic Inflammatory Infections'
     ],
-    dosageInformation: 'Prescription-only medicine. Take one tablet twice daily or as determined by the physician. Complete full course.',
+    dosageInformation: 'Take one tablet twice daily after meals, exactly as prescribed by a medical doctor. Do not skip doses.',
     precautions: [
-      'Maintain adequate fluid intake throughout therapy.',
-      'Avoid use in patients with known hypersensitivity to cephalosporins or fluoroquinolones.',
-      'Exercise caution in patients with history of tendonitis or CNS disorders.'
+      'Reserved for severe or mixed infections where dual coverage is clinically justified.',
+      'Maintain adequate fluid intake during therapy.',
+      'Contraindicated in patients with hypersensitivity to cephalosporins or quinolones.'
     ],
     sideEffects: [
-      'Nausea, diarrhea, vomiting, or abdominal colic',
+      'Nausea, diarrhea, epigastric distress',
       'Headache, insomnia, or dizziness',
-      'Transient alteration in taste'
+      'Transient elevations in hepatic transaminases'
     ],
-    storage: 'Store in a cool, dry place protected from light below 25°C.',
-    howSupplied: 'ALU-ALU blister strips of 10 film-coated tablets in boxes of 100 tablets.',
+    storage: 'Store protected from light and moisture at a temperature not exceeding 25°C.',
+    howSupplied: 'ALU-ALU foil strips of 10 film-coated tablets, packed 10 strips per box (100 tablets).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H1',
     featured: true,
@@ -524,7 +525,7 @@ export const products: Product[] = [
     marketer: 'Opsus Pharmaceuticals',
     researchSources: [
       { title: 'Indian Pharmacopoeia (IP)', sourceType: 'Pharmacopoeia' },
-      { title: 'CIMS Antimicrobial Guidelines', sourceType: 'Pharmaceutical Index' }
+      { title: 'ICMR Guidelines for Treatment of Antimicrobial Resistance', sourceType: 'Government Guideline' }
     ],
     verificationStatus: 'VERIFIED'
   },
@@ -542,12 +543,12 @@ export const products: Product[] = [
     dosageForm: 'Tablets',
     route: 'Oral',
     packaging: '1 x 6 x 10 Strip Pack',
-    packSize: '1 x 6 x 10 Strip Pack',
+    packSize: '10 x 6 Tablets (60 Tablets)',
     category: 'Antibiotics & Antibacterial',
     categorySlug: 'antibiotics-antibacterial',
     secondaryCategories: ['Orthopaedics', 'Respiratory & Allergy'],
     tags: ['Amoxycillin', 'Clavulanate', 'Augmentin', 'Beta-lactamase', 'Broad Spectrum', 'Dental Infection'],
-    description: 'Viaclav-625 Tab is an established broad-spectrum bactericidal combination containing the aminopenicillin Amoxycillin protected by the irreversible beta-lactamase inhibitor Potassium Clavulanate. It effectively overcomes penicillin-resistant beta-lactamase producing organisms.',
+    description: 'Viaclav-625 Tab is an established broad-spectrum bactericidal combination containing the aminopenicillin Amoxycillin protected by the irreversible beta-lactamase inhibitor Potassium Clavulanate in high-barrier strip packaging (1x6x10). It effectively overcomes penicillin-resistant beta-lactamase producing organisms.',
     howItWorks: 'Amoxycillin inhibits bacterial cell wall synthesis. Clavulanic acid inactivates a broad spectrum of plasmid- and chromosome-mediated beta-lactamase enzymes, thereby shielding Amoxycillin from enzymatic degradation.',
     therapeuticUse: 'Indicated for severe infections of the upper and lower respiratory tract, ENT infections (sinusitis, otitis media), genitourinary tract infections, skin and soft tissue infections, bone and joint infections, and dental abscesses.',
     uses: [
@@ -568,8 +569,8 @@ export const products: Product[] = [
       'Mucocutaneous candidiasis',
       'Mild urticaria or skin rashes'
     ],
-    storage: 'Store protected from moisture at a temperature not exceeding 25°C.',
-    howSupplied: 'Tamper-evident cartons containing individual moisture-sealed in strip packs.',
+    storage: 'Store protected from moisture and heat at a temperature not exceeding 25°C.',
+    howSupplied: 'High-barrier Aluminium strip packs of 6 film-coated tablets, packed 10 strips per carton (60 tablets).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H1',
     featured: true,
@@ -602,35 +603,34 @@ export const products: Product[] = [
     packSize: '10 x 10 Tablets',
     category: 'Respiratory & Allergy',
     categorySlug: 'respiratory-cough-care',
-    secondaryCategories: ['Neurology', 'Dermatology', 'Orthopaedics'],
-    tags: ['Deflazacort', 'Corticosteroid', 'Anti-inflammatory', 'Immunosuppressive', 'Allergy', 'Asthma'],
-    description: 'Dezy-6 Tab is an oxazoline derivative of prednisolone with potent anti-inflammatory and immunosuppressive properties. It offers a favorable metabolic and bone-sparing profile compared to traditional systemic corticosteroids.',
-    howItWorks: 'Deflazacort suppresses the production and release of inflammatory cytokines, chemokines, and arachidonic acid metabolites. It inhibits the migration and activation of inflammatory leukocytes and downregulates cell-mediated immune responses.',
-    therapeuticUse: 'Indicated for severe allergic and inflammatory disorders including bronchial asthma, rheumatoid arthritis, dermatological conditions (severe eczema, pemphigus), nephrotic syndrome, and immunosuppressive management.',
+    secondaryCategories: ['Orthopaedics', 'Dermatology', 'Neurology'],
+    tags: ['Deflazacort', 'Corticosteroid', 'Anti-inflammatory', 'Asthma', 'Arthritis', 'Immunosuppressant'],
+    description: 'Dezy-6 Tab contains Deflazacort, an oxazoline derivative of prednisolone with potent anti-inflammatory and immunosuppressive properties. It features a favorable bone-sparing and carbohydrate-metabolic profile compared to conventional corticosteroids.',
+    howItWorks: 'Deflazacort binds to intracellular glucocorticoid receptors, modulating gene transcription to inhibit pro-inflammatory cytokines, leukotrienes, and phospholipase A2, suppressing capillary permeability and leukocyte infiltration.',
+    therapeuticUse: 'Indicated for severe asthma, rheumatoid arthritis, juvenile idiopathic arthritis, autoimmune skin conditions (pemphigus, severe eczema), allergic reactions, nephrotic syndrome, and Duchenne muscular dystrophy.',
     uses: [
-      'Severe Allergic Rhinitis & Bronchial Asthma',
-      'Rheumatoid Arthritis, Juvenile Idiopathic Arthritis & Lupus',
-      'Severe Cutaneous Dermatoses & Urticaria',
+      'Severe Bronchial Asthma & Allergic Exacerbations',
+      'Rheumatoid Arthritis & Collagen Vascular Diseases',
+      'Autoimmune Dermatoses (Severe Eczema, Pemphigus)',
       'Nephrotic Syndrome & Glomerulonephritis',
       'Duchenne Muscular Dystrophy (DMD)'
     ],
-    dosageInformation: 'Dosage must be individualized by a registered medical specialist. Discontinuation after prolonged therapy must be done by gradual tapering.',
+    dosageInformation: 'Dosage must be individualized and determined strictly by the prescribing specialist. Take in the morning with or after breakfast.',
     precautions: [
-      'Do not stop medication abruptly after long-term use; gradual dose reduction is mandatory.',
-      'Caution in patients with diabetes, hypertension, osteoporosis, or active infections.',
-      'Monitor blood glucose and blood pressure periodically.'
+      'Do not abruptly discontinue therapy after prolonged use; gradual dose tapering is essential.',
+      'Monitor blood pressure, blood glucose, and bone mineral density in long-term treatment.',
+      'Contraindicated in active systemic fungal infections or live virus vaccinations.'
     ],
     sideEffects: [
-      'Weight gain, increased appetite, or fluid retention',
-      'Facial fullness (cushingoid appearance) during prolonged use',
-      'Mild gastrointestinal upset or dyspepsia',
-      'Sleep disturbances or mood changes'
+      'Weight gain, increased appetite, or mild cushingoid features',
+      'Dyspepsia or mild gastric irritation',
+      'Mood alterations or sleep disturbances'
     ],
-    storage: 'Store protected from light and moisture at a temperature below 25°C.',
-    howSupplied: 'ALU-ALU blister strips containing 10 tablets each, 10 strips per box.',
+    storage: 'Store protected from moisture and light at a temperature not exceeding 25°C.',
+    howSupplied: 'ALU-ALU foil strips containing 10 tablets each, 10 strips per box (100 tablets).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
-    featured: false,
+    featured: true,
     image: '/images/products/dezy-6-box.png',
     images: [
       '/images/products/dezy-6-box.png'
@@ -640,7 +640,7 @@ export const products: Product[] = [
     marketer: 'Opsus Pharmaceuticals',
     researchSources: [
       { title: 'Indian Pharmacopoeia (IP)', sourceType: 'Pharmacopoeia' },
-      { title: 'British National Formulary (BNF)', sourceType: 'Medical Reference' }
+      { title: 'British National Formulary (BNF)', sourceType: 'Drug Compendium' }
     ],
     verificationStatus: 'VERIFIED'
   },
@@ -657,7 +657,7 @@ export const products: Product[] = [
     ],
     dosageForm: 'Tablets',
     route: 'Oral',
-    packaging: '10 x 10 Blister Pack',
+    packaging: '10 x 10 ALU-ALU Pack',
     packSize: '10 x 10 Tablets',
     category: 'Gynaecology',
     categorySlug: 'gynaecology',
@@ -684,7 +684,7 @@ export const products: Product[] = [
       'Palpitations or dry mouth (infrequent)'
     ],
     storage: 'Store in a cool, dry place below 25°C. Protect from moisture and direct sunlight.',
-    howSupplied: 'Strip of 10 tablets in cartons of 10 strips.',
+    howSupplied: 'ALU-ALU moisture-barrier foil strips of 10 tablets, 10 strips per box (100 tablets).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
     featured: true,
@@ -697,7 +697,7 @@ export const products: Product[] = [
     marketer: 'Opsus Pharmaceuticals',
     researchSources: [
       { title: 'Indian Pharmacopoeia (IP)', sourceType: 'Pharmacopoeia' },
-      { title: 'MIMS India Gynecological Formulary', sourceType: 'Pharmaceutical Index' }
+      { title: 'FOGSI Good Clinical Practice Recommendations for Dysmenorrhea', sourceType: 'Gynaecological Guidelines' }
     ],
     verificationStatus: 'VERIFIED'
   },
@@ -706,8 +706,8 @@ export const products: Product[] = [
     slug: 'mefact-ds',
     name: 'Mefact-DS Syp.',
     brandName: 'Mefact-DS Syp.',
-    genericName: 'Mefenamic Acid & Paracetamol Suspension',
-    composition: 'Each 5 ml contains Mefenamic Acid IP 100 mg + Paracetamol IP 250 mg',
+    genericName: 'Mefenamic Acid & Paracetamol Oral Suspension',
+    composition: 'Mefenamic Acid 100 mg + Paracetamol 250 mg / 5 ml',
     activeIngredients: [
       { name: 'Mefenamic Acid IP', strength: '100 mg / 5 ml' },
       { name: 'Paracetamol IP', strength: '250 mg / 5 ml' },
@@ -716,31 +716,33 @@ export const products: Product[] = [
     route: 'Oral',
     packaging: '60 ml PET Bottle with Measuring Cap',
     packSize: '60 ml Bottle',
-    category: 'Pediatric Care',
-    categorySlug: 'pediatric-care',
-    secondaryCategories: ['Pain Relief & Anti-Inflammatory'],
-    tags: ['Mefenamic Acid', 'Paracetamol', 'Pediatric', 'Fever', 'Pain Relief', 'Suspension'],
-    description: 'Mefact-DS Syp. is a pediatric-friendly dual analgesic and antipyretic oral suspension designed for rapid defervescence and symptomatic pain control in acute childhood febrile episodes and inflammatory conditions.',
-    howItWorks: 'Paracetamol rapidly resets elevated hypothalamic thermoregulatory set points to lower fever and diminish central pain impulses. Mefenamic Acid provides peripheral anti-inflammatory action by inhibiting prostaglandin synthesis at the site of tissue irritation.',
-    therapeuticUse: 'Indicated for the reduction of high-grade fever and management of acute mild-to-moderate pediatric pain associated with immunization, teething, tonsillitis, otitis media, and viral respiratory infections.',
+    category: 'Orthopaedics',
+    categorySlug: 'orthopaedics-pain-management',
+    secondaryCategories: ['Pediatric Care', 'Pain Relief & Anti-Inflammatory'],
+    tags: ['Mefenamic Acid', 'Paracetamol', 'Pediatric Antipyretic', 'Fever', 'Post-vaccination Pain', 'Oral Suspension'],
+    description: 'Mefact-DS Syp. is a high-potency double-strength pediatric oral suspension combining Mefenamic Acid and Paracetamol. It is specifically formulated to manage high-grade pyrexia, refractory fever, and acute painful inflammatory episodes in children.',
+    howItWorks: 'Paracetamol rapidly lowers the hypothalamic temperature set-point via central cyclooxygenase inhibition. Mefenamic Acid provides dual peripheral COX inhibition and direct blockade of prostaglandin receptor sites, conferring sustained antipyresis and anti-inflammatory analgesia.',
+    therapeuticUse: 'Indicated for rapid reduction of high fever, febrile episodes unresponsive to monotherapy, post-immunization pyrexia, acute dental pain, tonsillitis, earache, and post-traumatic musculoskeletal pain in pediatric patients.',
     uses: [
-      'High-grade Pyrexia (Fever) in Pediatric Patients',
-      'Post-immunization Pyrexia & Local Tenderness',
-      'Pain associated with Otitis Media & Tonsillopharyngitis',
-      'Dental Eruption Pain & Soft Tissue Sprains'
+      'High-Grade Refractory Fever & Pyrexia of Varied Etiology',
+      'Post-Vaccination Fever & Local Injection-Site Swelling',
+      'Acute Tonsillitis, Pharyngitis & Otitis Media Pain',
+      'Pediatric Dental Pain & Post-Extraction Relief',
+      'Juvenile Soft Tissue & Musculoskeletal Injuries'
     ],
-    dosageInformation: 'Pediatric dosing must be calculated strictly on the basis of body weight (mg/kg) under the direct supervision of a pediatrician. Shake bottle well before use.',
+    dosageInformation: 'Shake well before each use. Dosing is strictly weight-dependent as calculated by the consulting pediatrician. Use the calibrated measuring cup provided.',
     precautions: [
-      'Do not exceed recommended dose or administer more frequently than 4-6 hourly intervals.',
-      'Avoid concurrent administration with other paracetamol or NSAID-containing syrups.',
-      'Ensure the child stays adequately hydrated.'
+      'Do not exceed recommended doses or administer for more than 48 hours without medical re-evaluation.',
+      'Maintain adequate oral hydration during febrile illnesses.',
+      'Contraindicated in children with active GI bleeding, severe renal impairment, or known aspirin-induced asthma.'
     ],
     sideEffects: [
-      'Mild gastrointestinal discomfort, nausea, or loose stools',
-      'Rare skin rashes or urticaria (discontinue if observed)'
+      'Mild epigastric discomfort, nausea, or loose stools',
+      'Drowsiness or dizziness (transient)',
+      'Skin rash or allergic manifestation (rare)'
     ],
-    storage: 'Store in a cool, dry place below 25°C. Protect from light. Keep out of reach of children.',
-    howSupplied: 'High-density amber PET bottle containing 60 ml suspension with calibrated measuring cup.',
+    storage: 'Store in a cool, dry place below 25°C. Protect from direct light. Do not freeze.',
+    howSupplied: 'High-density amber PET bottle containing 60 ml oral suspension with calibrated measuring cup.',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
     featured: false,
@@ -753,7 +755,7 @@ export const products: Product[] = [
     marketer: 'Opsus Pharmaceuticals',
     researchSources: [
       { title: 'Indian Pharmacopoeia (IP)', sourceType: 'Pharmacopoeia' },
-      { title: 'Indian Academy of Pediatrics (IAP) Drug Formulary', sourceType: 'Pediatric Reference' }
+      { title: 'Indian Academy of Pediatrics (IAP) Guidelines on Management of Pediatric Fever', sourceType: 'Pediatric Reference' }
     ],
     verificationStatus: 'VERIFIED'
   },
@@ -798,7 +800,7 @@ export const products: Product[] = [
       'Occasional abdominal bloating'
     ],
     storage: 'Store in a cool, dry place below 25°C. Protect from moisture and direct sunlight.',
-    howSupplied: 'ALU-ALU moisture-barrier blister packs of 10 tablets, 10 strips per box.',
+    howSupplied: 'ALU-ALU moisture-barrier foil strips of 10 tablets, 10 strips per box (100 tablets).',
     prescriptionRequired: false,
     featured: true,
     image: '/images/products/calsus-lc-box.png',
@@ -855,7 +857,7 @@ export const products: Product[] = [
       'Dry mouth or blurred vision (infrequent)'
     ],
     storage: 'Store below 25°C in a dry place. Protect from heat and moisture.',
-    howSupplied: 'ALU-ALU strips of 10 sustained-release film-coated tablets in cartons of 10 strips.',
+    howSupplied: 'Cold-form ALU-ALU foil strips of 10 sustained-release film-coated tablets, 10 strips per carton (100 tablets).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
     featured: true,
@@ -912,7 +914,7 @@ export const products: Product[] = [
       'Transient elevations in liver transaminases (reversible)'
     ],
     storage: 'Store protected from light and moisture at a temperature not exceeding 25°C.',
-    howSupplied: '10x10 ALU-ALU moisture-impermeable blister packs in protective outer cartons.',
+    howSupplied: 'ALU-ALU moisture-barrier foil strips containing 10 capsules each, 10 strips per box (100 capsules).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
     featured: true,
@@ -948,7 +950,7 @@ export const products: Product[] = [
     categorySlug: 'gastroenterology',
     secondaryCategories: ['Gynaecology', 'Neurology', 'Digestive Care'],
     tags: ['Rabeprazole', 'Domperidone', 'PPI', 'GERD', 'Acidity', 'Heartburn', 'Dyspepsia'],
-    description: 'Rabsus-DSR Cap is a synchronized dual-action gastroprokinetic and proton pump inhibitor multi-pellet capsule formulation. It combines rapid-onset gastric acid suppression with sustained upper gastrointestinal motility control.',
+    description: 'Rabsus-DSR Cap is a synchronized dual-action gastroprokinetic and proton pump inhibitor multi-pellet capsule formulation. It combines rapid-onset gastric acid suppression with sustained upper gastrointestinal motility control in a moisture-impermeable ALU-ALU pack.',
     howItWorks: 'Rabeprazole covalently binds to and irreversibly inhibits the H+/K+ ATPase enzyme system (proton pump) at the gastric parietal cell secretory surface, providing potent 24-hour acid suppression. Domperidone blocks peripheral dopamine D2 receptors, accelerating gastric emptying and increasing lower esophageal sphincter tone.',
     therapeuticUse: 'Indicated for gastroesophageal reflux disease (GERD), reflux esophagitis, non-ulcer dyspepsia, hyperacidity associated with nausea, and peptic ulcer disease unresponsive to PPI monotherapy.',
     uses: [
@@ -970,7 +972,7 @@ export const products: Product[] = [
       'Drowsiness or dizziness (infrequent)'
     ],
     storage: 'Store in a cool, dry place below 25°C. Protect from light and moisture.',
-    howSupplied: 'Box of 10 ALU-ALU blister strips of 10 capsules each.',
+    howSupplied: 'ALU-ALU moisture-barrier foil strips of 10 capsules, 10 strips per carton (100 capsules).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
     featured: true,
@@ -1028,7 +1030,7 @@ export const products: Product[] = [
       'Headache or mild abdominal cramps'
     ],
     storage: 'Store in a dry place below 25°C. Protect from heat and direct sunlight.',
-    howSupplied: 'Boxes of 10 ALU-ALU blister strips of 10 capsules each.',
+    howSupplied: 'ALU-ALU moisture-barrier foil strips of 10 capsules, 10 strips per carton (100 capsules).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
     featured: true,
@@ -1083,7 +1085,7 @@ export const products: Product[] = [
       'Well tolerated across broad patient profiles'
     ],
     storage: 'Store in a cool, dry place below 25°C. Do not freeze. Keep container tightly closed.',
-    howSupplied: 'Supplied in 170 ml PET bottle with graduated measuring cup.',
+    howSupplied: 'Supplied in 170 ml PET bottle with tamper-evident cap and graduated measuring cup.',
     prescriptionRequired: false,
     featured: false,
     image: '/images/products/remogel-suspension-bottle.png',
@@ -1139,7 +1141,7 @@ export const products: Product[] = [
       'No systemic adverse effects documented'
     ],
     storage: 'Store in a cool, dry place below 25°C. Protect from direct sunlight.',
-    howSupplied: 'amber PET bottle of 30 ml with a sterile calibrated dropper and child-resistant cap.',
+    howSupplied: 'Supplied in 30 ml amber PET bottle with a child-safe calibrated dropper.',
     prescriptionRequired: false,
     featured: false,
     image: '/images/products/remogel-drops-pack.png',
@@ -1203,7 +1205,7 @@ export const products: Product[] = [
       'Well-tolerated with no significant adverse effects under recommended consumption'
     ],
     storage: 'Store in a cool, dry, and dark place below 25°C. Protect from direct light.',
-    howSupplied: 'Supplied in 100 ml PET bottles in an individual monocarton.',
+    howSupplied: 'Supplied in 100 ml food-grade PET bottle with calibrated measuring cup, enclosed in an individual monocarton.',
     prescriptionRequired: false,
     featured: true,
     image: '/images/products/fitop-l-box.png',
@@ -1268,7 +1270,7 @@ export const products: Product[] = [
       'Well-tolerated with no significant adverse effects under recommended consumption'
     ],
     storage: 'Store in a cool, dry, and dark place below 25°C. Protect from direct light.',
-    howSupplied: 'Supplied in 200 ml PET bottles in an individual monocarton.',
+    howSupplied: 'Supplied in 200 ml food-grade PET bottle with calibrated measuring cup, enclosed in an individual monocarton.',
     prescriptionRequired: false,
     featured: true,
     image: '/images/products/fitop-l-pack.png',
@@ -1335,7 +1337,7 @@ export const products: Product[] = [
       'Generally well-tolerated with pleasant taste'
     ],
     storage: 'Store in a cool dry & dark place. Protect from light.',
-    howSupplied: 'Bottle of 30 ml drops with calibrated dropper in a pediatric carton.',
+    howSupplied: 'Supplied in 30 ml bottle with sterile calibrated dropper in a protective pediatric carton.',
     prescriptionRequired: false,
     featured: false,
     image: '/images/products/fitop-jr-drops-box.png',
@@ -1367,13 +1369,13 @@ export const products: Product[] = [
     ],
     dosageForm: 'Capsules',
     route: 'Oral',
-    packaging: '10 x 10 Blister Pack (100 Capsules)',
-    packSize: '10 x 10 Capsules',
+    packaging: '10 x 10 Blister Pack',
+    packSize: '10 x 10 Capsules (100 Capsules)',
     category: 'Nutraceuticals',
     categorySlug: 'nutraceuticals',
     secondaryCategories: ['Gynaecology', 'Neurology', 'Dermatology'],
     tags: ['Ginseng', 'Multivitamin', 'Probiotics', 'Lactic Acid Bacillus', 'Energy', 'Immunity', 'Capsules'],
-    description: 'Fitop Cap. is a premium daily restorative nutraceutical uniting standardized Ginseng adaptogen extract (42.8 mg) with therapeutic multivitamins, trace minerals, and gut-friendly Lactic Acid Bacillus probiotic spores (120 Million Spores).',
+    description: 'Fitop Cap. is a premium daily restorative nutraceutical uniting standardized Ginseng adaptogen extract (42.8 mg) with therapeutic multivitamins, trace minerals, and gut-friendly Lactic Acid Bacillus probiotic spores (120 Million Spores) in a 10x10 blister pack.',
     howItWorks: 'Ginsenosides from Panax ginseng enhance cellular ATP synthesis and improve physiological resistance to physical and mental fatigue. Essential micronutrients serve as enzymatic coenzymes, while Lactic Acid Bacillus repopulates beneficial gut flora and enhances micronutrient bio-absorption.',
     therapeuticUse: 'Indicated for general fatigue, chronic stress, mental exhaustion, convalescence after illness, nutritional deficiency states, and maintenance of healthy digestive flora.',
     uses: [
@@ -1391,7 +1393,7 @@ export const products: Product[] = [
       'Rare mild insomnia if taken late in the evening due to adaptogenic energizing effects'
     ],
     storage: 'Store in a cool, dry place below 25°C. Protect from moisture and direct light.',
-    howSupplied: 'Blister strips of 10 capsules packaged in cartons of 100 capsules.',
+    howSupplied: 'High-grade PVC/PVDC transparent blister strips of 10 capsules, packed 10 strips per carton (100 capsules).',
     prescriptionRequired: false,
     featured: true,
     image: '/images/products/fitop-capsules-box.png',
@@ -1451,8 +1453,8 @@ export const products: Product[] = [
     sideEffects: [
       'Mild gastrointestinal fullness in sensitive patients'
     ],
-    storage: 'Store in a cool, dry & dark place. Protect from direct sunlight & heat.',
-    howSupplied: 'Carton containing 10 individually sealed foil sachets of 5 g each.',
+    storage: 'Store in a cool, dry & dark place below 25°C. Protect from direct sunlight & moisture.',
+    howSupplied: 'Carton containing 10 hermetically sealed multi-layer laminate barrier foil sachets of 5 g each.',
     prescriptionRequired: false,
     featured: true,
     image: '/images/products/fitop-sachet-box.png',
@@ -1483,7 +1485,7 @@ export const products: Product[] = [
     ],
     dosageForm: 'Syrup',
     route: 'Oral',
-    packaging: '100 ml Bottle with Graduated Dosing Cap',
+    packaging: '100 ml Bottle with Measuring Cup',
     packSize: '100 ml Bottle',
     category: 'Respiratory & Allergy',
     categorySlug: 'respiratory-cough-care',
@@ -1509,7 +1511,7 @@ export const products: Product[] = [
       'Nausea or mild epigastric upset'
     ],
     storage: 'Store in a cool, dry place below 30°C. Protect from light.',
-    howSupplied: '100 ml bottle with graduated dosing cap.',
+    howSupplied: 'Supplied in 100 ml PET bottle with child-resistant closure and calibrated measuring cup.',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
     featured: true,
@@ -1541,7 +1543,7 @@ export const products: Product[] = [
     ],
     dosageForm: 'Syrup',
     route: 'Oral',
-    packaging: '100 ml Bottle with Measuring Cup',
+    packaging: '100 ml Bottle with Graduated Dosing Cap',
     packSize: '100 ml Bottle',
     category: 'Respiratory & Allergy',
     categorySlug: 'respiratory-cough-care',
@@ -1566,7 +1568,7 @@ export const products: Product[] = [
       'Nausea, gastrointestinal discomfort, or mild headache'
     ],
     storage: 'Store in a cool, dry place below 30°C. Do not freeze. Protect from light.',
-    howSupplied: '100 ml bottle with graduated dosing cap.',
+    howSupplied: 'Supplied in 100 ml PET bottle with tamper-evident seal and graduated dosing cap.',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
     featured: true,
@@ -1599,8 +1601,8 @@ export const products: Product[] = [
     ],
     dosageForm: 'Protein Powder',
     route: 'Oral',
-    packaging: '200 g / 400 g HDPE Jar',
-    packSize: '200 g / 400 g Jar',
+    packaging: '400 g HDPE Jar',
+    packSize: '400 g Jar',
     category: 'Nutraceuticals',
     categorySlug: 'nutraceuticals',
     secondaryCategories: ['Gynaecology', 'Neurology', 'Orthopaedics'],
@@ -1623,7 +1625,7 @@ export const products: Product[] = [
       'Well-tolerated with no known adverse effects under recommended usage'
     ],
     storage: 'Store in a cool, dry place. Keep container tightly closed. Consume within 30 days of opening.',
-    howSupplied: 'Sealed Jar of 200 g / 400 g with tamper-evident inner seal.',
+    howSupplied: 'Supplied in food-grade HDPE/PET jar of 400 g with tamper-evident inner induction seal and measuring scoop.',
     prescriptionRequired: false,
     featured: true,
     image: '/images/products/opsus-protein-powder-jar.png',
@@ -1658,7 +1660,7 @@ export const products: Product[] = [
     categorySlug: 'respiratory-cough-care',
     secondaryCategories: ['Dermatology'],
     tags: ['Fexofenadine', 'Montelukast', 'Allergic Rhinitis', 'Asthma', 'Antihistamine', 'Non-sedating'],
-    description: 'Fexus-M Tab unites the non-sedating, second-generation selective H1-antihistamine Fexofenadine with the leukotriene receptor antagonist Montelukast in an ALU-ALU blister pack. It provides comprehensive 24-hour dual-pathway relief from allergic rhinitis and concurrent mild asthma without causing drowsiness.',
+    description: 'Fexus-M Tab unites the non-sedating, second-generation selective H1-antihistamine Fexofenadine with the leukotriene receptor antagonist Montelukast in a moisture-impermeable ALU-ALU foil pack. It provides comprehensive 24-hour dual-pathway relief from allergic rhinitis and concurrent mild asthma without causing drowsiness.',
     howItWorks: 'Fexofenadine selectively inhibits peripheral H1 histamine receptors to block histamine-induced sneezing, pruritus, and watery rhinorrhea without crossing the blood-brain barrier. Montelukast selectively antagonizes the cysteinyl leukotriene CysLT1 receptor, suppressing leukotriene-mediated airway edema, smooth muscle bronchoconstriction, and mucosal inflammation.',
     therapeuticUse: 'Indicated for seasonal and perennial allergic rhinitis, chronic allergic rhinoconjunctivitis, chronic idiopathic urticaria, and allergic rhinitis associated with mild asthma.',
     uses: [
@@ -1679,7 +1681,7 @@ export const products: Product[] = [
       'Transient dyspepsia'
     ],
     storage: 'Store protected from moisture and light at a temperature below 25°C.',
-    howSupplied: 'ALU-ALU moisture-impermeable blister strips of 10 tablets in cartons of 10 strips.',
+    howSupplied: 'ALU-ALU moisture-impermeable foil strips of 10 tablets, packed 10 strips per carton (100 tablets).',
     prescriptionRequired: true,
     rxSchedule: 'Schedule H',
     featured: true,
